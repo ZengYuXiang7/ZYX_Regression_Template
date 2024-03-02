@@ -1,2 +1,0 @@
-INFO:CF:|2024-03-02 18:45:35| Namespace(dataset='cpu', debug=0, density=0.01, dimension=None, epochs=300, experiment=1, log=<utils.logger.Logger object at 0x7fd558200070>, model='CF', path='./datasets/', program_test=0, record=1, rounds=5, seed=0, valid=1, verbose=1
-INFO:CF:|2024-03-02 18:45:35| ********************Experiment Start*******************
