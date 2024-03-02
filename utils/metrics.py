@@ -41,22 +41,13 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 
 
 def class_Metrics(y_pred, y_test):
-    """
-    计算并返回分类模型的主要性能指标：准确率、F1 分数、精确度和召回率。
-
-    参数:
-    y_pred -- 模型预测的标签。
-    y_test -- 真实的标签。
-
-    返回:
-    Acc -- 准确率
-    F1 -- F1 分数
-    P -- 精确度
-    Recall -- 召回率
-    """
     Acc = accuracy_score(y_test, y_pred)
     F1 = f1_score(y_test, y_pred, average='micro')  # 如果是多分类问题，可以修改 average 参数
     P = precision_score(y_test, y_pred, average='micro')  # 如果是多分类问题，可以修改 average 参数
     Recall = recall_score(y_test, y_pred, average='micro')  # 如果是多分类问题，可以修改 average 参数
-
-    return Acc, F1, P, Recall
+    return {
+        'Acc' : Acc,
+        'F1' : F1,
+        'P' : P,
+        'Recall' : Recall
+    }

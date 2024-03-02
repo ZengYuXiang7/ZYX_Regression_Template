@@ -8,41 +8,13 @@ import pandas as pd
 import argparse
 from tqdm import *
 import torch
+
+from data import experiment, DataModule
 from utils.logger import Logger
 from utils.metrics import ErrorMetrics
 from utils.utils import set_settings, set_seed
-from data import get_train_valid_test_dataset
 global log
 torch.set_default_dtype(torch.double)
-
-
-
-class experiment:
-    def __init__(self, args):
-        self.args = args
-
-    @staticmethod
-    def load_data(args):
-        df = pd.read_excel('./datasets/数据预处理.xlsx')
-        df = df.drop(['实验标号'], axis=1).values
-        tensor = np.array(df)
-        return tensor
-
-    @staticmethod
-    def preprocess_data(data, args):
-        data[data == -1] = 0
-        return data
-
-class DataModule:
-    def __init__(self, exper_type, args):
-        self.args = args
-        self.path = args.path
-        self.data = exper_type.load_data(args)
-        self.data = exper_type.preprocess_data(self.data, args)
-        self.train_tensor, self.valid_tensor, self.test_tensor, self.max_value = get_train_valid_test_dataset(self.data, args)
-        args.log.only_print(f'Train_length : {len(self.train_tensor)} Valid_length : {len(self.valid_tensor)} Test_length : {len(self.test_tensor)}')
-
-
 
 class Model(torch.torch.nn.Module):
     def __init__(self, args):
@@ -72,7 +44,7 @@ class Model(torch.torch.nn.Module):
             'Ridge': Ridge(),
             'Lasso': Lasso(),
             'KNeighborsRegressor': KNeighborsRegressor(),
-            'SVR': SVR(),
+            'SVR': SVR(max_iter=1000000),
             'DecisionTreeRegressor': DecisionTreeRegressor(),
             'RandomForestRegressor': RandomForestRegressor(),
             'GradientBoostingRegressor': GradientBoostingRegressor(),
@@ -81,7 +53,7 @@ class Model(torch.torch.nn.Module):
             'Ridge': {'alpha': [0.001, 0.01, 0.1, 1.0, 10.0]},
             'Lasso': {'alpha': [0.001, 0.01, 0.1, 1.0, 10.0]},
             'KNeighborsRegressor': {'n_neighbors': [3, 5, 7, 9, 11, 15]},
-            'SVR': {'C': [0.001, 0.01, 0.1, 1, 10, 100], 'kernel': ['rbf', 'linear']},
+            'SVR': {'C': [0.01, 0.1, 1, 10], 'kernel': ['linear']},
             'DecisionTreeRegressor': {
                 'max_depth': [None, 5, 10, 15, 20],
                 'min_samples_split': [2, 5, 10]
@@ -113,15 +85,14 @@ class Model(torch.torch.nn.Module):
                         best_params = params
                 # print(f"{name} 最佳参数: {best_params}")
                 model.set_params(**best_params)
-                model.fit(train_x, train_y)
-            else:
-                model.fit(train_x, train_y)
+            model.fit(train_x, train_y)
             predict_test_y = model.predict(test_x)
             results_test = ErrorMetrics(predict_test_y * max_value, test_y * max_value)
-            self.log(f"测试集上的表现 - MAE={results_test['MAE']:.4f}, RMSE={results_test['RMSE']:.4f}, NMAE={results_test['NMAE']:.4f}, NRMSE={results_test['NRMSE']:.4f}")
+            self.log(f"测试集上的表现 - MAE={results_test['MAE']:.4f}, RMSE={results_test['RMSE']:.4f}, NMAE={results_test['NMAE']:.4f}, NRMSE={results_test['NRMSE']:.4f} ")
             self.log(f"Acc = [1%={results_test['Acc'][0]:.4f}, 5%={results_test['Acc'][1]:.4f}, 10%={results_test['Acc'][2]:.4f}]  ")
             results_dict[name] = results_test
         return results_dict
+
 
 def RunOnce(args, runId, Runtime, log):
     # Set seed
@@ -179,7 +150,7 @@ def get_args():
     parser.add_argument('--record', type=int, default=1)
     parser.add_argument('--program_test', type=int, default=0)
     parser.add_argument('--valid', type=int, default=1)
-    parser.add_argument('--experiment', type=int, default=1)
+    parser.add_argument('--experiment', type=int, default=0)
     parser.add_argument('--verbose', type=int, default=1)
     parser.add_argument('--path', nargs='?', default='./datasets/')
 

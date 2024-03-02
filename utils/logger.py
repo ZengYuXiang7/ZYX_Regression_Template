@@ -12,24 +12,28 @@ from utils.utils import makedir
 
 class Logger:
     def save_result(self, metrics):
-        makedir('./results/metrics/' + str(self.args.datasets))
+        args = self.args
+        makedir('./results/metrics/')
+        if args.dimension == None:
+            address = f'./results/metrics/Machine_learning_{args.dataset}_{args.density}'
+        else:
+            address = f'./results/metrics/{args.model}_{args.dataset}_{args.density}_{args.dimension}'
         for key in metrics:
-            pickle.dump(np.mean(metrics[key]), open('./results/metrics/' + str(self.args.datasets) + '/' + self.args.model + '_' + f'{self.args.density:.3f}' + '_' + key + '1.pkl', 'wb'))
-            pickle.dump(np.std(metrics[key]), open('./results/metrics/' + str(self.args.datasets) + '/' + self.args.model + '_' + f'{self.args.density:.3f}' + '_' + key + '2.pkl', 'wb'))
+            pickle.dump(np.mean(metrics[key]), open(address + key + 'mean.pkl', 'wb'))
+            pickle.dump(np.std(metrics[key]), open(address + key + 'std.pkl', 'wb'))
 
     def __init__(self, args):
         self.args = args
+        makedir('./results/log/')
         if args.experiment:
-            makedir('./results/log/')
-            if platform.system() == 'Linux':
-                ts = time.asctime().replace(' ', '_').replace(':', '_')
-                logging.basicConfig(level=logging.INFO, filename=f'./results/log/{args.density}_{args.dimension}_{ts}.log', filemode='w')
+            ts = time.asctime().replace(' ', '_').replace(':', '_')
+            if args.dimension == None:
+                address = f'./results/log/Machine_learning_{args.dataset}_{args.density}'
             else:
-                ts = time.asctime().replace(' ', '_').replace(':', '_')
-                logging.basicConfig(level=logging.INFO, filename=f'./results/log/Experiment_{ts}.log', filemode='w')
+                address = f'./results/log/{args.dataset}_{args.density}_{args.dimension}'
+            logging.basicConfig(level=logging.INFO, filename=f'{address}_{ts}.log', filemode='w')
         else:
             logging.basicConfig(level=logging.INFO, filename=f'./' + 'None.log', filemode='a')
-
         self.logger = logging.getLogger(self.args.model)
 
     # 日志记录
@@ -54,4 +58,4 @@ class Logger:
             string = string[1:]
         final_string = time.strftime('|%Y-%m-%d %H:%M:%S| ', time.localtime(time.time())) + string
         green_string = f'\033[92m{final_string}\033[0m'
-        print('\r' + green_string, end='\n', flush=True)
+        print(green_string)
