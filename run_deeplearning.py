@@ -208,7 +208,7 @@ def get_args():
     # Experiment
     parser.add_argument('--density', type=float, default=0.60)
     parser.add_argument('--debug', type=int, default=0)
-    parser.add_argument('--record', type=int, default=1)
+    parser.add_argument('--record', type=int, default=0)
     parser.add_argument('--program_test', type=int, default=1)
     parser.add_argument('--valid', type=int, default=1)
     parser.add_argument('--experiment', type=int, default=0)
