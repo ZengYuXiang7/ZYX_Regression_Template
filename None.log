@@ -1,0 +1,77 @@
+INFO:DNN:|2024-02-19 21:27:06| Namespace(ablation=0, bs=16, classification=0, datasets='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=128, epochs=1000, experiment=0, log=<utils.logger.Logger object at 0x7f94580cbc40>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=1, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-02-19 21:27:06| ********************Experiment Start*******************
+INFO:DNN:|2024-02-19 21:27:08| Round=1 BestEpoch=21 MAE=378.0405 RMSE=391.8415 NMAE=0.1370 NRMSE=0.1383 Training_time=0.1 
+INFO:DNN:|2024-02-19 21:27:08| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-02-19 21:27:08| Feature importances: tensor([[0.3826, 0.0651, 0.5444, 0.0078]]
+INFO:DNN:|2024-02-19 21:27:10| Round=2 BestEpoch=14 MAE=380.0810 RMSE=382.5763 NMAE=0.1377 NRMSE=0.1350 Training_time=0.0 
+INFO:DNN:|2024-02-19 21:27:10| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000]
+INFO:DNN:|2024-02-19 21:27:10| Feature importances: tensor([[0.4102, 0.0115, 0.2937, 0.2846]]
+INFO:DNN:|2024-02-19 21:27:12| Round=3 BestEpoch=6 MAE=311.7353 RMSE=314.9037 NMAE=0.1129 NRMSE=0.1111 Training_time=0.0 
+INFO:DNN:|2024-02-19 21:27:12| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-02-19 21:27:12| Feature importances: tensor([[0.5274, 0.0665, 0.3397, 0.0664]]
+INFO:DNN:|2024-02-19 21:27:14| Round=4 BestEpoch=88 MAE=96.9545 RMSE=101.3062 NMAE=0.0351 NRMSE=0.0358 Training_time=0.1 
+INFO:DNN:|2024-02-19 21:27:14| Acc = [1%=0.0000, 5%=1.0000, 10%=1.0000]
+INFO:DNN:|2024-02-19 21:27:14| Feature importances: tensor([[0.3459, 0.0305, 0.4475, 0.1761]]
+INFO:DNN:|2024-02-19 21:27:16| Round=5 BestEpoch=8 MAE=305.4896 RMSE=410.3052 NMAE=0.1107 NRMSE=0.1448 Training_time=0.0 
+INFO:DNN:|2024-02-19 21:27:16| Acc = [1%=0.5000, 5%=0.5000, 10%=0.5000]
+INFO:DNN:|2024-02-19 21:27:16| Feature importances: tensor([[0.3253, 0.0008, 0.4718, 0.2020]]
+INFO:DNN:|2024-02-19 21:27:16| ********************Experiment Results:*******************
+INFO:DNN:|2024-02-19 21:27:16| MAE: 294.4602 ± 103.677
+INFO:DNN:|2024-02-19 21:27:16| RMSE: 320.1866 ± 114.091
+INFO:DNN:|2024-02-19 21:27:16| NMAE: 0.1067 ± 0.037
+INFO:DNN:|2024-02-19 21:27:16| NRMSE: 0.1130 ± 0.040
+INFO:DNN:|2024-02-19 21:27:16| Acc: 0.2667 ± 0.359
+INFO:DNN:|2024-02-19 21:27:16| ********************Experiment Success*******************
+INFO:DNN:|2024-02-19 21:52:22| Namespace(ablation=0, bs=16, classification=0, datasets='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=128, epochs=1000, experiment=0, log=<utils.logger.Logger object at 0x7ff51052bac0>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=1, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-02-19 21:52:22| ********************Experiment Start*******************
+INFO:DNN:|2024-02-19 21:52:24| Round=1 BestEpoch=21 MAE=378.0405 RMSE=391.8415 NMAE=0.1370 NRMSE=0.1383 Training_time=0.1 
+INFO:DNN:|2024-02-19 21:52:24| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-02-19 21:52:24| Feature importances: tensor([[0.3826, 0.0651, 0.5444, 0.0078]]
+INFO:DNN:|2024-02-21 09:43:05| Namespace(ablation=0, bs=16, classification=0, datasets='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=128, epochs=1000, experiment=0, log=<utils.logger.Logger object at 0x7fe3c0f335e0>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=1, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-02-21 09:43:05| ********************Experiment Start*******************
+INFO:DNN:|2024-02-21 09:43:08| Round=1 BestEpoch=21 MAE=378.0405 RMSE=391.8415 NMAE=0.1370 NRMSE=0.1383 Training_time=0.1 
+INFO:DNN:|2024-02-21 09:43:08| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-02-21 09:43:08| Feature importances: tensor([[0.3826, 0.0651, 0.5444, 0.0078]]
+INFO:DNN:|2024-02-21 09:43:10| Round=2 BestEpoch=14 MAE=380.0810 RMSE=382.5763 NMAE=0.1377 NRMSE=0.1350 Training_time=0.0 
+INFO:DNN:|2024-02-21 09:43:10| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000]
+INFO:DNN:|2024-02-21 09:43:10| Feature importances: tensor([[0.4102, 0.0115, 0.2937, 0.2846]]
+INFO:DNN:|2024-02-21 09:43:11| Round=3 BestEpoch=6 MAE=311.7353 RMSE=314.9037 NMAE=0.1129 NRMSE=0.1111 Training_time=0.0 
+INFO:DNN:|2024-02-21 09:43:11| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-02-21 09:43:11| Feature importances: tensor([[0.5274, 0.0665, 0.3397, 0.0664]]
+INFO:DNN:|2024-02-21 09:43:13| Round=4 BestEpoch=88 MAE=96.9545 RMSE=101.3062 NMAE=0.0351 NRMSE=0.0358 Training_time=0.1 
+INFO:DNN:|2024-02-21 09:43:13| Acc = [1%=0.0000, 5%=1.0000, 10%=1.0000]
+INFO:DNN:|2024-02-21 09:43:13| Feature importances: tensor([[0.3459, 0.0305, 0.4475, 0.1761]]
+INFO:DNN:|2024-02-21 09:43:15| Round=5 BestEpoch=8 MAE=305.4896 RMSE=410.3052 NMAE=0.1107 NRMSE=0.1448 Training_time=0.0 
+INFO:DNN:|2024-02-21 09:43:15| Acc = [1%=0.5000, 5%=0.5000, 10%=0.5000]
+INFO:DNN:|2024-02-21 09:43:15| Feature importances: tensor([[0.3253, 0.0008, 0.4718, 0.2020]]
+INFO:DNN:|2024-02-21 09:43:15| ********************Experiment Results:*******************
+INFO:DNN:|2024-02-21 09:43:15| MAE: 294.4602 ± 103.677
+INFO:DNN:|2024-02-21 09:43:15| RMSE: 320.1866 ± 114.091
+INFO:DNN:|2024-02-21 09:43:15| NMAE: 0.1067 ± 0.037
+INFO:DNN:|2024-02-21 09:43:15| NRMSE: 0.1130 ± 0.040
+INFO:DNN:|2024-02-21 09:43:15| Acc: 0.2667 ± 0.359
+INFO:DNN:|2024-02-21 09:43:15| ********************Experiment Success*******************
+INFO:DNN:|2024-03-02 18:38:32| Namespace(ablation=0, bs=1, classification=0, datasets='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=128, epochs=1000, experiment=0, log=<utils.logger.Logger object at 0x7f84316435e0>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=1, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-02 18:38:32| ********************Experiment Start*******************
+INFO:DNN:|2024-03-02 18:38:45| Round=1 BestEpoch=14 MAE=24.3415 RMSE=27.0562 NMAE=0.0088 NRMSE=0.0095 Training_time=0.3 
+INFO:DNN:|2024-03-02 18:38:45| Acc = [1%=0.5000, 5%=1.0000, 10%=1.0000]
+INFO:DNN:|2024-03-02 18:38:45| Feature importances: tensor([[0.3549, 0.0260, 0.4585, 0.1606]]
+INFO:DNN:|2024-03-02 18:38:57| Round=2 BestEpoch=26 MAE=622.7067 RMSE=627.5640 NMAE=0.2256 NRMSE=0.2215 Training_time=0.3 
+INFO:DNN:|2024-03-02 18:38:57| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-02 18:38:57| Feature importances: tensor([[0.3460, 0.0977, 0.2802, 0.2760]]
+INFO:DNN:|2024-03-02 18:39:09| Round=3 BestEpoch=11 MAE=683.5363 RMSE=687.3926 NMAE=0.2476 NRMSE=0.2426 Training_time=0.1 
+INFO:DNN:|2024-03-02 18:39:09| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-02 18:39:09| Feature importances: tensor([[0.3928, 0.1337, 0.2394, 0.2341]]
+INFO:DNN:|2024-03-02 18:39:20| Round=4 BestEpoch=23 MAE=238.3181 RMSE=295.1693 NMAE=0.0863 NRMSE=0.1042 Training_time=0.3 
+INFO:DNN:|2024-03-02 18:39:20| Acc = [1%=0.0000, 5%=0.5000, 10%=0.5000]
+INFO:DNN:|2024-03-02 18:39:20| Feature importances: tensor([[0.3389, 0.0856, 0.3487, 0.2267]]
+INFO:DNN:|2024-03-02 18:39:32| Round=5 BestEpoch=9 MAE=225.1771 RMSE=252.2546 NMAE=0.0816 NRMSE=0.0890 Training_time=0.1 
+INFO:DNN:|2024-03-02 18:39:32| Acc = [1%=0.0000, 5%=0.5000, 10%=0.5000]
+INFO:DNN:|2024-03-02 18:39:32| Feature importances: tensor([[0.3851, 0.0427, 0.5536, 0.0186]]
+INFO:DNN:|2024-03-02 18:39:32| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-02 18:39:32| MAE: 358.8159 ± 252.718
+INFO:DNN:|2024-03-02 18:39:32| RMSE: 377.8873 ± 246.511
+INFO:DNN:|2024-03-02 18:39:32| NMAE: 0.1300 ± 0.091
+INFO:DNN:|2024-03-02 18:39:32| NRMSE: 0.1334 ± 0.087
+INFO:DNN:|2024-03-02 18:39:32| Acc: 0.3000 ± 0.355
+INFO:DNN:|2024-03-02 18:39:32| ********************Experiment Success*******************
