@@ -14,12 +14,12 @@ class experiment:
 
     @staticmethod
     def load_data(args):
-        from sklearn.datasets import fetch_california_housing
-        housing = fetch_california_housing()
-        X = housing.data
-        y = housing.target.reshape(-1, 1)
-        tensor = np.concatenate((X, y), axis=1)
-        return tensor
+        df = pd.read_excel('./datasets/数据预处理.xlsx')
+        df = np.array(df)
+        X = df[:, 1:-2]
+        y = df[:, -2].reshape(-1, 1)
+        data = np.concatenate((X, y), axis=1)
+        return data
 
     @staticmethod
     def preprocess_data(data, args):
@@ -56,12 +56,17 @@ class DataModule:
 
         X = tensor[:, :-1]
         Y = tensor[:, -1].reshape(-1, 1)
-        max_value = Y.max()
-        # max_value = 1
-        Y /= max_value
 
-        train_size = int(len(tensor) * 0.3)
-        valid_size = int(len(tensor) * 0.05)
+        from sklearn.preprocessing import MinMaxScaler
+        scaler = MinMaxScaler()
+        X = scaler.fit_transform(X)
+
+        max_value = Y.max()
+        Y /= max_value
+        # max_value = 1
+
+        train_size = int(len(tensor) * 0.8)
+        valid_size = int(len(tensor) * 0.1)
 
         X_train = X[:train_size]
         Y_train = Y[:train_size]

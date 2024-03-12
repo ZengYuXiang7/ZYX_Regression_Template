@@ -1,9 +1,6 @@
 # coding : utf-8
 import statsmodels.api as sm
-from sklearn.model_selection import train_test_split
 from run_deeplearning import get_args
-from utils.metrics import ErrorMetrics
-
 from data import experiment, DataModule
 from utils.logger import Logger
 from utils.metrics import ErrorMetrics
@@ -13,11 +10,13 @@ global log
 if __name__ == '__main__':
     # Initialize
     args = get_args()
+    set_seed(2024)
     set_settings(args)
     log = Logger(args)
     args.log = log
     exper = experiment(args)
     datamodule = DataModule(exper, args)
+
     # Prepare the data for machine learning
     train_x, train_y = datamodule.train_tensor[:, :-1], datamodule.train_tensor[:, -1]
     valid_x, valid_y = datamodule.valid_tensor[:, :-1], datamodule.valid_tensor[:, -1]

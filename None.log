@@ -17,3 +17,1383 @@ INFO:DNN:|2024-03-02 19:49:44| NMAE: 0.4263 ± 0.000
 INFO:DNN:|2024-03-02 19:49:44| NRMSE: 0.5009 ± 0.002
 INFO:DNN:|2024-03-02 19:49:44| Acc: 0.0763 ± 0.053
 INFO:DNN:|2024-03-02 19:49:44| ********************Experiment Success*******************
+INFO:DNN:|2024-03-02 21:21:17| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=6, epochs=100, experiment=0, log=<utils.logger.Logger object at 0x7fa47010f2b0>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-02 21:21:17| ********************Experiment Start*******************
+INFO:DNN:|2024-03-02 21:21:20| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=6, epochs=100, experiment=0, log=<utils.logger.Logger object at 0x7fe688174a30>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-02 21:21:20| ********************Experiment Start*******************
+INFO:DNN:|2024-03-02 21:21:29| Round=1 BestEpoch=9 MAE=0.8825 RMSE=1.1875 NMAE=0.4262 NRMSE=0.5009 Training_time=0.7 
+INFO:DNN:|2024-03-02 21:21:29| Acc = [1%=0.0131, 5%=0.0733, 10%=0.1433]
+INFO:DNN:|2024-03-02 21:21:31| Round=1 BestEpoch=9 MAE=0.8825 RMSE=1.1875 NMAE=0.4262 NRMSE=0.5009 Training_time=1.0 
+INFO:DNN:|2024-03-02 21:21:31| Acc = [1%=0.0131, 5%=0.0733, 10%=0.1433]
+INFO:DNN:|2024-03-02 21:21:42| Round=2 BestEpoch=72 MAE=0.8836 RMSE=1.1910 NMAE=0.4261 NRMSE=0.5012 Training_time=7.2 
+INFO:DNN:|2024-03-02 21:21:42| Acc = [1%=0.0119, 5%=0.0705, 10%=0.1442]
+INFO:DNN:|2024-03-02 21:21:53| Round=3 BestEpoch=90 MAE=0.8774 RMSE=1.1717 NMAE=0.4253 NRMSE=0.4962 Training_time=8.8 
+INFO:DNN:|2024-03-02 21:21:53| Acc = [1%=0.0151, 5%=0.0705, 10%=0.1377]
+INFO:DNN:|2024-03-02 21:22:05| Round=4 BestEpoch=89 MAE=0.8863 RMSE=1.1956 NMAE=0.4272 NRMSE=0.5031 Training_time=8.8 
+INFO:DNN:|2024-03-02 21:22:05| Acc = [1%=0.0129, 5%=0.0750, 10%=0.1468]
+INFO:DNN:|2024-03-02 21:22:16| Round=5 BestEpoch=21 MAE=0.8841 RMSE=1.1925 NMAE=0.4270 NRMSE=0.5030 Training_time=2.1 
+INFO:DNN:|2024-03-02 21:22:16| Acc = [1%=0.0119, 5%=0.0704, 10%=0.1474]
+INFO:DNN:|2024-03-02 21:22:16| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-02 21:22:16| MAE: 0.8828 ± 0.003
+INFO:DNN:|2024-03-02 21:22:16| RMSE: 1.1877 ± 0.008
+INFO:DNN:|2024-03-02 21:22:16| NMAE: 0.4263 ± 0.000
+INFO:DNN:|2024-03-02 21:22:16| NRMSE: 0.5009 ± 0.002
+INFO:DNN:|2024-03-02 21:22:16| Acc: 0.0763 ± 0.053
+INFO:DNN:|2024-03-02 21:22:16| ********************Experiment Success*******************
+INFO:DNN:|2024-03-02 21:22:29| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=6, epochs=100, experiment=0, log=<utils.logger.Logger object at 0x7fd78005ca30>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-02 21:22:29| ********************Experiment Start*******************
+INFO:DNN:|2024-03-02 21:22:50| Round=1 BestEpoch=100 MAE=0.4288 RMSE=0.6302 NMAE=0.2068 NRMSE=0.2656 Training_time=18.7 
+INFO:DNN:|2024-03-02 21:22:50| Acc = [1%=0.0509, 5%=0.1812, 10%=0.3236]
+INFO:DNN:|2024-03-02 21:23:12| Round=2 BestEpoch=100 MAE=0.4401 RMSE=0.6595 NMAE=0.2127 NRMSE=0.2779 Training_time=19.9 
+INFO:DNN:|2024-03-02 21:23:12| Acc = [1%=0.0344, 5%=0.1715, 10%=0.3047]
+INFO:DNN:|2024-03-02 21:24:45| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=6, epochs=100, experiment=0, log=<utils.logger.Logger object at 0x7f785805ca30>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-02 21:24:45| ********************Experiment Start*******************
+INFO:DNN:|2024-03-02 21:27:39| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=6, epochs=100, experiment=0, log=<utils.logger.Logger object at 0x7ff63805ca30>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-02 21:27:39| ********************Experiment Start*******************
+INFO:CF:|2024-03-02 21:27:43| Namespace(dataset='cpu', debug=0, density=0.01, dimension=None, epochs=300, experiment=0, log=<utils.logger.Logger object at 0x7f9500151f10>, model='CF', path='./datasets/', program_test=0, record=1, rounds=5, seed=0, valid=1, verbose=1
+INFO:CF:|2024-03-02 21:27:43| ********************Experiment Start*******************
+INFO:CF:|2024-03-02 21:27:43| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-02 21:27:43| Runid : 
+INFO:CF:|2024-03-02 21:27:43| 模型: LinearRegressio
+INFO:CF:|2024-03-02 21:27:43| 测试集上的表现 - MAE=0.5189, RMSE=0.6918, NMAE=0.2494, NRMSE=0.3047
+INFO:CF:|2024-03-02 21:27:43| Acc = [1%=0.0237, 5%=0.1192, 10%=0.2422] 
+INFO:CF:|2024-03-02 21:27:43| 模型: Ridg
+INFO:CF:|2024-03-02 21:27:43| 测试集上的表现 - MAE=0.5189, RMSE=0.6919, NMAE=0.2494, NRMSE=0.3048
+INFO:CF:|2024-03-02 21:27:43| Acc = [1%=0.0242, 5%=0.1182, 10%=0.2427] 
+INFO:CF:|2024-03-02 21:27:43| 模型: Lass
+INFO:CF:|2024-03-02 21:27:44| 测试集上的表现 - MAE=0.5407, RMSE=0.7207, NMAE=0.2599, NRMSE=0.3220
+INFO:CF:|2024-03-02 21:27:44| Acc = [1%=0.0233, 5%=0.1124, 10%=0.2253] 
+INFO:CF:|2024-03-02 21:27:44| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-02 21:27:44| 测试集上的表现 - MAE=0.4137, RMSE=0.6009, NMAE=0.2009, NRMSE=0.2635
+INFO:CF:|2024-03-02 21:27:44| Acc = [1%=0.0446, 5%=0.1822, 10%=0.3319] 
+INFO:CF:|2024-03-02 21:27:44| 模型: SV
+INFO:CF:|2024-03-02 21:27:59| 测试集上的表现 - MAE=0.5089, RMSE=0.6903, NMAE=0.2488, NRMSE=0.3086
+INFO:CF:|2024-03-02 21:27:59| Acc = [1%=0.0247, 5%=0.1245, 10%=0.2403] 
+INFO:CF:|2024-03-02 21:27:59| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-02 21:28:00| 测试集上的表现 - MAE=0.3944, RMSE=0.5881, NMAE=0.1891, NRMSE=0.2512
+INFO:CF:|2024-03-02 21:28:00| Acc = [1%=0.0518, 5%=0.2054, 10%=0.3619] 
+INFO:CF:|2024-03-02 21:28:00| 模型: RandomForestRegresso
+INFO:CF:|2024-03-02 21:30:10| 测试集上的表现 - MAE=0.3119, RMSE=0.4712, NMAE=0.1497, NRMSE=0.2031
+INFO:CF:|2024-03-02 21:30:10| Acc = [1%=0.0591, 5%=0.2471, 10%=0.4632] 
+INFO:CF:|2024-03-02 21:30:10| 模型: GradientBoostingRegresso
+INFO:DNN:|2024-03-12 13:53:18| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=6, epochs=100, experiment=0, log=<utils.logger.Logger object at 0x7f7a9001ca30>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 13:53:18| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 13:53:29| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.001, density=0.6, device='cpu', dimension=6, epochs=100, experiment=0, log=<utils.logger.Logger object at 0x7fd7f805ca30>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 13:53:29| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 13:53:30| Round=1 BestEpoch=100 MAE=6.1401 RMSE=8.1724 NMAE=0.3349 NRMSE=0.3615 Training_time=0.3 
+INFO:DNN:|2024-03-12 13:53:30| Acc = [1%=0.1111, 5%=0.2778, 10%=0.3889]
+INFO:DNN:|2024-03-12 13:53:30| Round=2 BestEpoch=100 MAE=24.4109 RMSE=27.2784 NMAE=1.1717 NRMSE=1.1022 Training_time=0.2 
+INFO:DNN:|2024-03-12 13:53:30| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 13:53:30| Round=3 BestEpoch=100 MAE=16.2736 RMSE=19.1202 NMAE=0.8137 NRMSE=0.8072 Training_time=0.2 
+INFO:DNN:|2024-03-12 13:53:30| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 13:53:31| Round=4 BestEpoch=100 MAE=10.0875 RMSE=11.7216 NMAE=0.4716 NRMSE=0.4715 Training_time=0.2 
+INFO:DNN:|2024-03-12 13:53:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 13:53:31| Round=5 BestEpoch=99 MAE=8.6523 RMSE=10.6559 NMAE=0.4387 NRMSE=0.4759 Training_time=0.3 
+INFO:DNN:|2024-03-12 13:53:31| Acc = [1%=0.1667, 5%=0.1667, 10%=0.1667]
+INFO:DNN:|2024-03-12 13:53:31| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-12 13:53:31| MAE: 13.1129 ± 6.562
+INFO:DNN:|2024-03-12 13:53:31| RMSE: 15.3897 ± 6.974
+INFO:DNN:|2024-03-12 13:53:31| NMAE: 0.6461 ± 0.308
+INFO:DNN:|2024-03-12 13:53:31| NRMSE: 0.6436 ± 0.273
+INFO:DNN:|2024-03-12 13:53:31| Acc: 0.0852 ± 0.119
+INFO:DNN:|2024-03-12 13:53:31| ********************Experiment Success*******************
+INFO:DNN:|2024-03-12 13:54:07| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=500, experiment=0, log=<utils.logger.Logger object at 0x7fb668094a30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 13:54:07| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 13:54:09| Round=1 BestEpoch=500 MAE=10.9942 RMSE=13.1439 NMAE=0.5997 NRMSE=0.5814 Training_time=1.2 
+INFO:DNN:|2024-03-12 13:54:09| Acc = [1%=0.1667, 5%=0.1667, 10%=0.1667]
+INFO:DNN:|2024-03-12 13:54:11| Round=2 BestEpoch=500 MAE=12.5281 RMSE=14.8785 NMAE=0.6013 NRMSE=0.6012 Training_time=1.1 
+INFO:DNN:|2024-03-12 13:54:11| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 13:54:12| Round=3 BestEpoch=500 MAE=11.3495 RMSE=13.2249 NMAE=0.5675 NRMSE=0.5583 Training_time=1.1 
+INFO:DNN:|2024-03-12 13:54:12| Acc = [1%=0.0000, 5%=0.1111, 10%=0.1111]
+INFO:DNN:|2024-03-12 13:54:14| Round=4 BestEpoch=500 MAE=5.5137 RMSE=6.2058 NMAE=0.2578 NRMSE=0.2496 Training_time=1.1 
+INFO:DNN:|2024-03-12 13:54:14| Acc = [1%=0.0556, 5%=0.0556, 10%=0.0556]
+INFO:DNN:|2024-03-12 13:54:15| Round=5 BestEpoch=498 MAE=8.6954 RMSE=10.7098 NMAE=0.4409 NRMSE=0.4783 Training_time=1.2 
+INFO:DNN:|2024-03-12 13:54:15| Acc = [1%=0.1667, 5%=0.1667, 10%=0.1667]
+INFO:DNN:|2024-03-12 13:54:15| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-12 13:54:15| MAE: 9.8162 ± 2.484
+INFO:DNN:|2024-03-12 13:54:15| RMSE: 11.6326 ± 3.021
+INFO:DNN:|2024-03-12 13:54:15| NMAE: 0.4934 ± 0.131
+INFO:DNN:|2024-03-12 13:54:15| NRMSE: 0.4938 ± 0.129
+INFO:DNN:|2024-03-12 13:54:15| Acc: 0.0926 ± 0.069
+INFO:DNN:|2024-03-12 13:54:15| ********************Experiment Success*******************
+INFO:DNN:|2024-03-12 13:54:27| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=1500, experiment=0, log=<utils.logger.Logger object at 0x7f7b8005ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 13:54:27| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 13:54:32| Round=1 BestEpoch=1499 MAE=10.9941 RMSE=13.1438 NMAE=0.5997 NRMSE=0.5814 Training_time=3.4 
+INFO:DNN:|2024-03-12 13:54:32| Acc = [1%=0.1667, 5%=0.1667, 10%=0.1667]
+INFO:DNN:|2024-03-12 13:54:36| Round=2 BestEpoch=1500 MAE=11.9532 RMSE=13.8569 NMAE=0.5738 NRMSE=0.5599 Training_time=3.4 
+INFO:DNN:|2024-03-12 13:54:36| Acc = [1%=0.0000, 5%=0.0556, 10%=0.0556]
+INFO:DNN:|2024-03-12 13:54:41| Round=3 BestEpoch=986 MAE=11.3465 RMSE=13.2214 NMAE=0.5673 NRMSE=0.5582 Training_time=2.2 
+INFO:DNN:|2024-03-12 13:54:41| Acc = [1%=0.0000, 5%=0.1111, 10%=0.1111]
+INFO:DNN:|2024-03-12 13:54:45| Round=4 BestEpoch=1500 MAE=5.4990 RMSE=6.1930 NMAE=0.2571 NRMSE=0.2491 Training_time=3.4 
+INFO:DNN:|2024-03-12 13:54:45| Acc = [1%=0.0556, 5%=0.0556, 10%=0.0556]
+INFO:DNN:|2024-03-12 13:54:50| Round=5 BestEpoch=1499 MAE=8.6954 RMSE=10.7098 NMAE=0.4409 NRMSE=0.4783 Training_time=3.7 
+INFO:DNN:|2024-03-12 13:54:50| Acc = [1%=0.1667, 5%=0.1667, 10%=0.1667]
+INFO:DNN:|2024-03-12 13:54:50| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-12 13:54:50| MAE: 9.6976 ± 2.371
+INFO:DNN:|2024-03-12 13:54:50| RMSE: 11.4250 ± 2.827
+INFO:DNN:|2024-03-12 13:54:50| NMAE: 0.4877 ± 0.127
+INFO:DNN:|2024-03-12 13:54:50| NRMSE: 0.4854 ± 0.123
+INFO:DNN:|2024-03-12 13:54:50| Acc: 0.1000 ± 0.061
+INFO:DNN:|2024-03-12 13:54:50| ********************Experiment Success*******************
+INFO:DNN:|2024-03-12 13:54:57| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7fe5f00bca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 13:54:57| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 13:55:13| Round=1 BestEpoch=5000 MAE=10.9940 RMSE=13.1434 NMAE=0.5997 NRMSE=0.5814 Training_time=12.0 
+INFO:DNN:|2024-03-12 13:55:13| Acc = [1%=0.1667, 5%=0.1667, 10%=0.1667]
+INFO:DNN:|2024-03-12 13:55:27| Round=2 BestEpoch=5000 MAE=11.9517 RMSE=13.8546 NMAE=0.5737 NRMSE=0.5598 Training_time=11.2 
+INFO:DNN:|2024-03-12 13:55:27| Acc = [1%=0.0000, 5%=0.0556, 10%=0.0556]
+INFO:DNN:|2024-03-12 13:55:41| Round=3 BestEpoch=5000 MAE=11.3454 RMSE=13.2199 NMAE=0.5673 NRMSE=0.5581 Training_time=11.3 
+INFO:DNN:|2024-03-12 13:55:41| Acc = [1%=0.0000, 5%=0.1111, 10%=0.1111]
+INFO:DNN:|2024-03-12 13:55:56| Round=4 BestEpoch=4993 MAE=5.4983 RMSE=6.1926 NMAE=0.2571 NRMSE=0.2491 Training_time=11.4 
+INFO:DNN:|2024-03-12 13:55:56| Acc = [1%=0.0556, 5%=0.0556, 10%=0.0556]
+INFO:DNN:|2024-03-12 13:56:01| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7fa24005ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 13:56:01| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 13:56:16| Round=1 BestEpoch=4999 MAE=11.2983 RMSE=13.5344 NMAE=0.6163 NRMSE=0.5987 Training_time=11.4 
+INFO:DNN:|2024-03-12 13:56:16| Acc = [1%=0.1667, 5%=0.1667, 10%=0.1667]
+INFO:DNN:|2024-03-12 13:56:31| Round=2 BestEpoch=5000 MAE=12.4448 RMSE=14.3926 NMAE=0.5974 NRMSE=0.5815 Training_time=11.5 
+INFO:DNN:|2024-03-12 13:56:31| Acc = [1%=0.0000, 5%=0.0556, 10%=0.0556]
+INFO:DNN:|2024-03-12 13:56:46| Round=3 BestEpoch=5000 MAE=11.5653 RMSE=13.5070 NMAE=0.5783 NRMSE=0.5702 Training_time=11.9 
+INFO:DNN:|2024-03-12 13:56:46| Acc = [1%=0.1111, 5%=0.1111, 10%=0.1111]
+INFO:CF:|2024-03-12 13:59:25| Namespace(dataset='cpu', debug=0, density=0.01, dimension=None, epochs=300, experiment=0, log=<utils.logger.Logger object at 0x7fc06005b520>, model='CF', path='./datasets/', program_test=0, record=1, rounds=5, seed=0, valid=1, verbose=1
+INFO:CF:|2024-03-12 13:59:25| ********************Experiment Start*******************
+INFO:CF:|2024-03-12 13:59:25| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 13:59:25| Runid : 
+INFO:CF:|2024-03-12 13:59:26| 模型: LinearRegressio
+INFO:CF:|2024-03-12 13:59:26| 测试集上的表现 - MAE=4.9541, RMSE=5.6172, NMAE=0.2508, NRMSE=0.2472
+INFO:CF:|2024-03-12 13:59:26| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 13:59:26| 模型: Ridg
+INFO:CF:|2024-03-12 13:59:26| 测试集上的表现 - MAE=4.9541, RMSE=5.6173, NMAE=0.2508, NRMSE=0.2472
+INFO:CF:|2024-03-12 13:59:26| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 13:59:26| 模型: Lass
+INFO:CF:|2024-03-12 13:59:26| 测试集上的表现 - MAE=4.9440, RMSE=5.6364, NMAE=0.2503, NRMSE=0.2486
+INFO:CF:|2024-03-12 13:59:26| Acc = [1%=0.0556, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 13:59:26| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 13:59:26| 测试集上的表现 - MAE=0.3704, RMSE=0.9623, NMAE=0.0204, NRMSE=0.0427
+INFO:CF:|2024-03-12 13:59:26| Acc = [1%=0.6111, 5%=0.6111, 10%=0.7222] 
+INFO:CF:|2024-03-12 13:59:26| 模型: SV
+INFO:CF:|2024-03-12 13:59:26| 测试集上的表现 - MAE=4.9501, RMSE=5.6175, NMAE=0.2500, NRMSE=0.2462
+INFO:CF:|2024-03-12 13:59:26| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 13:59:26| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 13:59:26| 测试集上的表现 - MAE=0.2778, RMSE=1.1785, NMAE=0.0154, NRMSE=0.0522
+INFO:CF:|2024-03-12 13:59:26| Acc = [1%=0.7222, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 13:59:26| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 13:59:27| 测试集上的表现 - MAE=0.3722, RMSE=0.8715, NMAE=0.0207, NRMSE=0.0390
+INFO:CF:|2024-03-12 13:59:27| Acc = [1%=0.5556, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 13:59:27| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 13:59:28| 测试集上的表现 - MAE=0.4228, RMSE=0.8676, NMAE=0.0231, NRMSE=0.0382
+INFO:CF:|2024-03-12 13:59:28| Acc = [1%=0.3889, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 13:59:28| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 13:59:28| Runid : 
+INFO:CF:|2024-03-12 13:59:28| 模型: LinearRegressio
+INFO:CF:|2024-03-12 13:59:28| 测试集上的表现 - MAE=4.0117, RMSE=4.9943, NMAE=0.1952, NRMSE=0.2084
+INFO:CF:|2024-03-12 13:59:28| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3889] 
+INFO:CF:|2024-03-12 13:59:28| 模型: Ridg
+INFO:CF:|2024-03-12 13:59:28| 测试集上的表现 - MAE=4.0117, RMSE=4.9943, NMAE=0.1952, NRMSE=0.2084
+INFO:CF:|2024-03-12 13:59:28| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3889] 
+INFO:CF:|2024-03-12 13:59:28| 模型: Lass
+INFO:CF:|2024-03-12 13:59:28| 测试集上的表现 - MAE=4.0025, RMSE=4.9972, NMAE=0.1948, NRMSE=0.2092
+INFO:CF:|2024-03-12 13:59:28| Acc = [1%=0.0556, 5%=0.2222, 10%=0.3889] 
+INFO:CF:|2024-03-12 13:59:28| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 13:59:28| 测试集上的表现 - MAE=0.5556, RMSE=1.4699, NMAE=0.0274, NRMSE=0.0604
+INFO:CF:|2024-03-12 13:59:28| Acc = [1%=0.7222, 5%=0.7222, 10%=0.7778] 
+INFO:CF:|2024-03-12 13:59:28| 模型: SV
+INFO:CF:|2024-03-12 13:59:28| 测试集上的表现 - MAE=3.9285, RMSE=4.9870, NMAE=0.1897, NRMSE=0.2073
+INFO:CF:|2024-03-12 13:59:28| Acc = [1%=0.0556, 5%=0.2778, 10%=0.3889] 
+INFO:CF:|2024-03-12 13:59:28| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 13:59:28| 测试集上的表现 - MAE=0.2778, RMSE=1.1785, NMAE=0.0135, NRMSE=0.0477
+INFO:CF:|2024-03-12 13:59:28| Acc = [1%=0.8333, 5%=0.8333, 10%=0.8333] 
+INFO:CF:|2024-03-12 13:59:28| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 13:59:29| 测试集上的表现 - MAE=0.5611, RMSE=1.0047, NMAE=0.0276, NRMSE=0.0415
+INFO:CF:|2024-03-12 13:59:29| Acc = [1%=0.4444, 5%=0.7222, 10%=0.8333] 
+INFO:CF:|2024-03-12 13:59:29| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 13:59:31| 测试集上的表现 - MAE=0.3864, RMSE=0.6930, NMAE=0.0187, NRMSE=0.0281
+INFO:CF:|2024-03-12 13:59:31| Acc = [1%=0.6667, 5%=0.7778, 10%=0.7778] 
+INFO:CF:|2024-03-12 13:59:31| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 13:59:31| Runid : 
+INFO:CF:|2024-03-12 13:59:31| 模型: LinearRegressio
+INFO:CF:|2024-03-12 13:59:31| 测试集上的表现 - MAE=5.0102, RMSE=5.6974, NMAE=0.2625, NRMSE=0.2594
+INFO:CF:|2024-03-12 13:59:31| Acc = [1%=0.0556, 5%=0.1111, 10%=0.1111] 
+INFO:CF:|2024-03-12 13:59:31| 模型: Ridg
+INFO:CF:|2024-03-12 13:59:31| 测试集上的表现 - MAE=5.4002, RMSE=6.4795, NMAE=0.2813, NRMSE=0.3105
+INFO:CF:|2024-03-12 13:59:31| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 13:59:31| 模型: Lass
+INFO:CF:|2024-03-12 13:59:31| 测试集上的表现 - MAE=4.9770, RMSE=5.8759, NMAE=0.2601, NRMSE=0.2734
+INFO:CF:|2024-03-12 13:59:31| Acc = [1%=0.0556, 5%=0.1667, 10%=0.2222] 
+INFO:CF:|2024-03-12 13:59:31| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 13:59:31| 测试集上的表现 - MAE=0.7407, RMSE=1.2423, NMAE=0.0381, NRMSE=0.0536
+INFO:CF:|2024-03-12 13:59:31| Acc = [1%=0.4444, 5%=0.4444, 10%=0.7778] 
+INFO:CF:|2024-03-12 13:59:31| 模型: SV
+INFO:CF:|2024-03-12 13:59:31| 测试集上的表现 - MAE=6.4533, RMSE=7.7683, NMAE=0.3313, NRMSE=0.3812
+INFO:CF:|2024-03-12 13:59:31| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 13:59:31| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 13:59:31| 测试集上的表现 - MAE=0.7407, RMSE=1.8426, NMAE=0.0374, NRMSE=0.0779
+INFO:CF:|2024-03-12 13:59:31| Acc = [1%=0.6667, 5%=0.6667, 10%=0.6667] 
+INFO:CF:|2024-03-12 13:59:31| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 13:59:32| 测试集上的表现 - MAE=0.4556, RMSE=0.8472, NMAE=0.0231, NRMSE=0.0361
+INFO:CF:|2024-03-12 13:59:32| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7778] 
+INFO:CF:|2024-03-12 13:59:32| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 13:59:33| 测试集上的表现 - MAE=0.4491, RMSE=0.9523, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 13:59:33| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 13:59:33| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 13:59:33| Runid : 
+INFO:CF:|2024-03-12 13:59:33| 模型: LinearRegressio
+INFO:CF:|2024-03-12 13:59:33| 测试集上的表现 - MAE=4.4516, RMSE=5.0350, NMAE=0.2220, NRMSE=0.2144
+INFO:CF:|2024-03-12 13:59:33| Acc = [1%=0.0000, 5%=0.0556, 10%=0.2222] 
+INFO:CF:|2024-03-12 13:59:33| 模型: Ridg
+INFO:CF:|2024-03-12 13:59:33| 测试集上的表现 - MAE=4.4062, RMSE=5.0206, NMAE=0.2201, NRMSE=0.2159
+INFO:CF:|2024-03-12 13:59:33| Acc = [1%=0.0000, 5%=0.1111, 10%=0.1667] 
+INFO:CF:|2024-03-12 13:59:33| 模型: Lass
+INFO:CF:|2024-03-12 13:59:33| 测试集上的表现 - MAE=4.3697, RMSE=5.1033, NMAE=0.2191, NRMSE=0.2241
+INFO:CF:|2024-03-12 13:59:33| Acc = [1%=0.0000, 5%=0.1111, 10%=0.1667] 
+INFO:CF:|2024-03-12 13:59:33| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 13:59:33| 测试集上的表现 - MAE=0.0926, RMSE=0.3928, NMAE=0.0043, NRMSE=0.0159
+INFO:CF:|2024-03-12 13:59:33| Acc = [1%=0.8333, 5%=0.8333, 10%=0.8889] 
+INFO:CF:|2024-03-12 13:59:33| 模型: SV
+INFO:CF:|2024-03-12 13:59:33| 测试集上的表现 - MAE=4.2300, RMSE=4.9157, NMAE=0.2074, NRMSE=0.2086
+INFO:CF:|2024-03-12 13:59:33| Acc = [1%=0.0556, 5%=0.1111, 10%=0.1667] 
+INFO:CF:|2024-03-12 13:59:33| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 13:59:33| 测试集上的表现 - MAE=0.2778, RMSE=1.1785, NMAE=0.0132, NRMSE=0.0482
+INFO:CF:|2024-03-12 13:59:33| Acc = [1%=0.8333, 5%=0.8333, 10%=0.8333] 
+INFO:CF:|2024-03-12 13:59:33| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 13:59:34| 测试集上的表现 - MAE=0.5278, RMSE=0.8702, NMAE=0.0252, NRMSE=0.0360
+INFO:CF:|2024-03-12 13:59:34| Acc = [1%=0.2778, 5%=0.8333, 10%=0.8889] 
+INFO:CF:|2024-03-12 13:59:34| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 13:59:35| 测试集上的表现 - MAE=0.2058, RMSE=0.2887, NMAE=0.0096, NRMSE=0.0117
+INFO:CF:|2024-03-12 13:59:35| Acc = [1%=0.5556, 5%=0.8889, 10%=0.8889] 
+INFO:CF:|2024-03-12 13:59:35| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 13:59:35| Runid : 
+INFO:CF:|2024-03-12 13:59:35| 模型: LinearRegressio
+INFO:CF:|2024-03-12 13:59:35| 测试集上的表现 - MAE=2.8439, RMSE=3.5734, NMAE=0.1492, NRMSE=0.1678
+INFO:CF:|2024-03-12 13:59:35| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3889] 
+INFO:CF:|2024-03-12 13:59:35| 模型: Ridg
+INFO:CF:|2024-03-12 13:59:35| 测试集上的表现 - MAE=3.4774, RMSE=4.4409, NMAE=0.1798, NRMSE=0.2149
+INFO:CF:|2024-03-12 13:59:35| Acc = [1%=0.0000, 5%=0.1667, 10%=0.3333] 
+INFO:CF:|2024-03-12 13:59:35| 模型: Lass
+INFO:CF:|2024-03-12 13:59:35| 测试集上的表现 - MAE=2.9613, RMSE=3.7890, NMAE=0.1545, NRMSE=0.1803
+INFO:CF:|2024-03-12 13:59:35| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3889] 
+INFO:CF:|2024-03-12 13:59:35| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 13:59:35| 测试集上的表现 - MAE=0.2778, RMSE=0.6804, NMAE=0.0140, NRMSE=0.0303
+INFO:CF:|2024-03-12 13:59:35| Acc = [1%=0.7778, 5%=0.7778, 10%=0.9444] 
+INFO:CF:|2024-03-12 13:59:35| 模型: SV
+INFO:CF:|2024-03-12 13:59:35| 测试集上的表现 - MAE=2.7251, RMSE=3.6035, NMAE=0.1408, NRMSE=0.1683
+INFO:CF:|2024-03-12 13:59:35| Acc = [1%=0.1667, 5%=0.2222, 10%=0.4444] 
+INFO:CF:|2024-03-12 13:59:35| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 13:59:35| 测试集上的表现 - MAE=0.5556, RMSE=1.6667, NMAE=0.0290, NRMSE=0.0764
+INFO:CF:|2024-03-12 13:59:35| Acc = [1%=0.8333, 5%=0.8333, 10%=0.8333] 
+INFO:CF:|2024-03-12 13:59:35| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 13:59:37| 测试集上的表现 - MAE=0.3333, RMSE=0.5528, NMAE=0.0171, NRMSE=0.0250
+INFO:CF:|2024-03-12 13:59:37| Acc = [1%=0.5000, 5%=0.8333, 10%=0.8889] 
+INFO:CF:|2024-03-12 13:59:37| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 13:59:38| 测试集上的表现 - MAE=0.2778, RMSE=1.1785, NMAE=0.0139, NRMSE=0.0517
+INFO:CF:|2024-03-12 13:59:38| Acc = [1%=0.8889, 5%=0.8889, 10%=0.8889] 
+INFO:CF:|2024-03-12 13:59:38| ********************Experiment Results:*******************
+INFO:CF:|2024-03-12 13:59:38| LinearRegression_MAE: 4.2543 ± 0.793
+INFO:CF:|2024-03-12 13:59:38| LinearRegression_RMSE: 4.9834 ± 0.761
+INFO:CF:|2024-03-12 13:59:38| LinearRegression_NMAE: 0.2160 ± 0.040
+INFO:CF:|2024-03-12 13:59:38| LinearRegression_NRMSE: 0.2195 ± 0.032
+INFO:CF:|2024-03-12 13:59:38| Ridge_MAE: 4.4499 ± 0.677
+INFO:CF:|2024-03-12 13:59:38| Ridge_RMSE: 5.3105 ± 0.693
+INFO:CF:|2024-03-12 13:59:38| Ridge_NMAE: 0.2254 ± 0.036
+INFO:CF:|2024-03-12 13:59:38| Ridge_NRMSE: 0.2394 ± 0.038
+INFO:CF:|2024-03-12 13:59:38| Lasso_MAE: 4.2509 ± 0.741
+INFO:CF:|2024-03-12 13:59:38| Lasso_RMSE: 5.0804 ± 0.723
+INFO:CF:|2024-03-12 13:59:38| Lasso_NMAE: 0.2158 ± 0.038
+INFO:CF:|2024-03-12 13:59:38| Lasso_NRMSE: 0.2271 ± 0.032
+INFO:CF:|2024-03-12 13:59:38| KNeighborsRegressor_MAE: 0.4074 ± 0.223
+INFO:CF:|2024-03-12 13:59:38| KNeighborsRegressor_RMSE: 0.9495 ± 0.384
+INFO:CF:|2024-03-12 13:59:38| KNeighborsRegressor_NMAE: 0.0209 ± 0.011
+INFO:CF:|2024-03-12 13:59:38| KNeighborsRegressor_NRMSE: 0.0406 ± 0.016
+INFO:CF:|2024-03-12 13:59:38| SVR_MAE: 4.4574 ± 1.229
+INFO:CF:|2024-03-12 13:59:38| SVR_RMSE: 5.3784 ± 1.362
+INFO:CF:|2024-03-12 13:59:38| SVR_NMAE: 0.2239 ± 0.064
+INFO:CF:|2024-03-12 13:59:38| SVR_NRMSE: 0.2423 ± 0.073
+INFO:CF:|2024-03-12 13:59:38| DecisionTreeRegressor_MAE: 0.4259 ± 0.190
+INFO:CF:|2024-03-12 13:59:38| DecisionTreeRegressor_RMSE: 1.4090 ± 0.287
+INFO:CF:|2024-03-12 13:59:38| DecisionTreeRegressor_NMAE: 0.0217 ± 0.009
+INFO:CF:|2024-03-12 13:59:38| DecisionTreeRegressor_NRMSE: 0.0605 ± 0.013
+INFO:CF:|2024-03-12 13:59:38| RandomForestRegressor_MAE: 0.4500 ± 0.087
+INFO:CF:|2024-03-12 13:59:38| RandomForestRegressor_RMSE: 0.8293 ± 0.149
+INFO:CF:|2024-03-12 13:59:38| RandomForestRegressor_NMAE: 0.0228 ± 0.003
+INFO:CF:|2024-03-12 13:59:38| RandomForestRegressor_NRMSE: 0.0355 ± 0.005
+INFO:CF:|2024-03-12 13:59:38| GradientBoostingRegressor_MAE: 0.3484 ± 0.092
+INFO:CF:|2024-03-12 13:59:38| GradientBoostingRegressor_RMSE: 0.7960 ± 0.297
+INFO:CF:|2024-03-12 13:59:38| GradientBoostingRegressor_NMAE: 0.0176 ± 0.005
+INFO:CF:|2024-03-12 13:59:38| GradientBoostingRegressor_NRMSE: 0.0339 ± 0.013
+INFO:CF:|2024-03-12 13:59:38| ********************Experiment Success********************
+INFO:CF:|2024-03-12 14:00:51| Namespace(dataset='cpu', debug=0, density=0.01, dimension=None, epochs=300, experiment=0, log=<utils.logger.Logger object at 0x7f926805b520>, model='CF', path='./datasets/', program_test=0, record=1, rounds=5, seed=0, valid=1, verbose=1
+INFO:CF:|2024-03-12 14:00:51| ********************Experiment Start*******************
+INFO:CF:|2024-03-12 14:00:51| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:00:51| Runid : 
+INFO:CF:|2024-03-12 14:00:51| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:00:51| 测试集上的表现 - MAE=14.3855, RMSE=19.3734, NMAE=0.3117, NRMSE=0.3889
+INFO:CF:|2024-03-12 14:00:51| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:00:51| 模型: Ridg
+INFO:CF:|2024-03-12 14:00:51| 测试集上的表现 - MAE=14.2397, RMSE=19.2506, NMAE=0.3089, NRMSE=0.3900
+INFO:CF:|2024-03-12 14:00:51| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:51| 模型: Lass
+INFO:CF:|2024-03-12 14:00:51| 测试集上的表现 - MAE=14.3378, RMSE=19.3269, NMAE=0.3108, NRMSE=0.3892
+INFO:CF:|2024-03-12 14:00:51| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:51| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:00:51| 测试集上的表现 - MAE=9.8413, RMSE=16.7498, NMAE=0.2429, NRMSE=0.3750
+INFO:CF:|2024-03-12 14:00:51| Acc = [1%=0.0556, 5%=0.2778, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:00:51| 模型: SV
+INFO:CF:|2024-03-12 14:00:51| 测试集上的表现 - MAE=14.1992, RMSE=19.2422, NMAE=0.3081, NRMSE=0.3904
+INFO:CF:|2024-03-12 14:00:51| Acc = [1%=0.0556, 5%=0.1667, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:00:51| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:00:51| 测试集上的表现 - MAE=13.6574, RMSE=21.5815, NMAE=0.3048, NRMSE=0.4319
+INFO:CF:|2024-03-12 14:00:51| Acc = [1%=0.1111, 5%=0.2778, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:00:51| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:00:52| 测试集上的表现 - MAE=10.4924, RMSE=20.0025, NMAE=0.2376, NRMSE=0.4028
+INFO:CF:|2024-03-12 14:00:52| Acc = [1%=0.1111, 5%=0.3333, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:00:52| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:00:54| 测试集上的表现 - MAE=12.1987, RMSE=22.0429, NMAE=0.2716, NRMSE=0.4446
+INFO:CF:|2024-03-12 14:00:54| Acc = [1%=0.0556, 5%=0.3333, 10%=0.5556] 
+INFO:CF:|2024-03-12 14:00:54| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:00:54| Runid : 
+INFO:CF:|2024-03-12 14:00:54| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:00:54| 测试集上的表现 - MAE=14.5399, RMSE=17.9475, NMAE=0.3003, NRMSE=0.3462
+INFO:CF:|2024-03-12 14:00:54| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:54| 模型: Ridg
+INFO:CF:|2024-03-12 14:00:54| 测试集上的表现 - MAE=14.5396, RMSE=17.9475, NMAE=0.3003, NRMSE=0.3462
+INFO:CF:|2024-03-12 14:00:54| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:54| 模型: Lass
+INFO:CF:|2024-03-12 14:00:54| 测试集上的表现 - MAE=14.4483, RMSE=17.9424, NMAE=0.2989, NRMSE=0.3473
+INFO:CF:|2024-03-12 14:00:54| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:54| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:00:54| 测试集上的表现 - MAE=9.8889, RMSE=16.2481, NMAE=0.1862, NRMSE=0.2779
+INFO:CF:|2024-03-12 14:00:54| Acc = [1%=0.0556, 5%=0.1667, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:00:54| 模型: SV
+INFO:CF:|2024-03-12 14:00:54| 测试集上的表现 - MAE=14.3663, RMSE=17.9301, NMAE=0.2979, NRMSE=0.3484
+INFO:CF:|2024-03-12 14:00:54| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:54| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:00:54| 测试集上的表现 - MAE=8.4222, RMSE=12.1072, NMAE=0.1600, NRMSE=0.2039
+INFO:CF:|2024-03-12 14:00:54| Acc = [1%=0.0000, 5%=0.1667, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:00:54| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:00:55| 测试集上的表现 - MAE=9.6476, RMSE=13.3883, NMAE=0.1768, NRMSE=0.2295
+INFO:CF:|2024-03-12 14:00:55| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:00:55| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:00:56| 测试集上的表现 - MAE=9.9135, RMSE=14.4141, NMAE=0.1905, NRMSE=0.2613
+INFO:CF:|2024-03-12 14:00:56| Acc = [1%=0.0000, 5%=0.1111, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:00:56| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:00:56| Runid : 
+INFO:CF:|2024-03-12 14:00:56| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:00:56| 测试集上的表现 - MAE=14.3814, RMSE=18.5417, NMAE=0.3271, NRMSE=0.3912
+INFO:CF:|2024-03-12 14:00:56| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:56| 模型: Ridg
+INFO:CF:|2024-03-12 14:00:56| 测试集上的表现 - MAE=14.8999, RMSE=18.8636, NMAE=0.3384, NRMSE=0.4004
+INFO:CF:|2024-03-12 14:00:56| Acc = [1%=0.0000, 5%=0.0000, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:56| 模型: Lass
+INFO:CF:|2024-03-12 14:00:56| 测试集上的表现 - MAE=14.5571, RMSE=18.6469, NMAE=0.3309, NRMSE=0.3943
+INFO:CF:|2024-03-12 14:00:56| Acc = [1%=0.0000, 5%=0.0556, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:56| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:00:56| 测试集上的表现 - MAE=9.0556, RMSE=15.2370, NMAE=0.2267, NRMSE=0.3265
+INFO:CF:|2024-03-12 14:00:56| Acc = [1%=0.1111, 5%=0.2222, 10%=0.5000] 
+INFO:CF:|2024-03-12 14:00:56| 模型: SV
+INFO:CF:|2024-03-12 14:00:56| 测试集上的表现 - MAE=15.2438, RMSE=18.9360, NMAE=0.3406, NRMSE=0.3972
+INFO:CF:|2024-03-12 14:00:56| Acc = [1%=0.0000, 5%=0.0000, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:56| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:00:56| 测试集上的表现 - MAE=11.4352, RMSE=23.2667, NMAE=0.2729, NRMSE=0.4571
+INFO:CF:|2024-03-12 14:00:56| Acc = [1%=0.1111, 5%=0.2222, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:00:56| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:00:57| 测试集上的表现 - MAE=9.9973, RMSE=18.4237, NMAE=0.2457, NRMSE=0.3824
+INFO:CF:|2024-03-12 14:00:57| Acc = [1%=0.0000, 5%=0.1667, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:00:57| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:00:59| 测试集上的表现 - MAE=11.4077, RMSE=22.6860, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 14:00:59| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:00:59| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:00:59| Runid : 
+INFO:CF:|2024-03-12 14:00:59| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:00:59| 测试集上的表现 - MAE=16.9535, RMSE=21.0686, NMAE=0.3136, NRMSE=0.3570
+INFO:CF:|2024-03-12 14:00:59| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:59| 模型: Ridg
+INFO:CF:|2024-03-12 14:00:59| 测试集上的表现 - MAE=16.7890, RMSE=20.8240, NMAE=0.3139, NRMSE=0.3595
+INFO:CF:|2024-03-12 14:00:59| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:59| 模型: Lass
+INFO:CF:|2024-03-12 14:00:59| 测试集上的表现 - MAE=16.9005, RMSE=20.9779, NMAE=0.3137, NRMSE=0.3576
+INFO:CF:|2024-03-12 14:00:59| Acc = [1%=0.0000, 5%=0.0556, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:59| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:00:59| 测试集上的表现 - MAE=7.2778, RMSE=14.3391, NMAE=0.1255, NRMSE=0.2277
+INFO:CF:|2024-03-12 14:00:59| Acc = [1%=0.0556, 5%=0.4444, 10%=0.6111] 
+INFO:CF:|2024-03-12 14:00:59| 模型: SV
+INFO:CF:|2024-03-12 14:00:59| 测试集上的表现 - MAE=17.0128, RMSE=20.8904, NMAE=0.3197, NRMSE=0.3600
+INFO:CF:|2024-03-12 14:00:59| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:00:59| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:00:59| 测试集上的表现 - MAE=10.9447, RMSE=15.2161, NMAE=0.2082, NRMSE=0.2612
+INFO:CF:|2024-03-12 14:00:59| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:00:59| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:01:00| 测试集上的表现 - MAE=7.5863, RMSE=17.5288, NMAE=0.1344, NRMSE=0.2829
+INFO:CF:|2024-03-12 14:01:00| Acc = [1%=0.2222, 5%=0.3889, 10%=0.6667] 
+INFO:CF:|2024-03-12 14:01:00| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:01:01| 测试集上的表现 - MAE=8.4616, RMSE=20.6397, NMAE=0.1516, NRMSE=0.3338
+INFO:CF:|2024-03-12 14:01:01| Acc = [1%=0.0000, 5%=0.3333, 10%=0.6667] 
+INFO:CF:|2024-03-12 14:01:01| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:01:01| Runid : 
+INFO:CF:|2024-03-12 14:01:01| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:01:01| 测试集上的表现 - MAE=11.9638, RMSE=13.8581, NMAE=0.2692, NRMSE=0.2974
+INFO:CF:|2024-03-12 14:01:01| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:01:01| 模型: Ridg
+INFO:CF:|2024-03-12 14:01:01| 测试集上的表现 - MAE=11.9640, RMSE=13.8583, NMAE=0.2692, NRMSE=0.2974
+INFO:CF:|2024-03-12 14:01:01| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:01:01| 模型: Lass
+INFO:CF:|2024-03-12 14:01:01| 测试集上的表现 - MAE=12.0403, RMSE=13.9084, NMAE=0.2709, NRMSE=0.2989
+INFO:CF:|2024-03-12 14:01:01| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:01:01| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:01:01| 测试集上的表现 - MAE=7.5000, RMSE=10.8369, NMAE=0.1635, NRMSE=0.2162
+INFO:CF:|2024-03-12 14:01:01| Acc = [1%=0.0556, 5%=0.1111, 10%=0.5000] 
+INFO:CF:|2024-03-12 14:01:01| 模型: SV
+INFO:CF:|2024-03-12 14:01:01| 测试集上的表现 - MAE=12.1929, RMSE=14.0048, NMAE=0.2735, NRMSE=0.3012
+INFO:CF:|2024-03-12 14:01:01| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:01:01| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:01:01| 测试集上的表现 - MAE=10.4632, RMSE=12.7960, NMAE=0.2228, NRMSE=0.2452
+INFO:CF:|2024-03-12 14:01:01| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:01:01| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:01:02| 测试集上的表现 - MAE=6.6585, RMSE=10.2530, NMAE=0.1406, NRMSE=0.1978
+INFO:CF:|2024-03-12 14:01:02| Acc = [1%=0.1111, 5%=0.3333, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:01:02| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:01:04| 测试集上的表现 - MAE=8.1604, RMSE=10.8423, NMAE=0.1708, NRMSE=0.2178
+INFO:CF:|2024-03-12 14:01:04| Acc = [1%=0.0000, 5%=0.2222, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:01:04| ********************Experiment Results:*******************
+INFO:CF:|2024-03-12 14:01:04| LinearRegression_MAE: 14.4448 ± 1.579
+INFO:CF:|2024-03-12 14:01:04| LinearRegression_RMSE: 18.1579 ± 2.392
+INFO:CF:|2024-03-12 14:01:04| LinearRegression_NMAE: 0.3044 ± 0.019
+INFO:CF:|2024-03-12 14:01:04| LinearRegression_NRMSE: 0.3561 ± 0.034
+INFO:CF:|2024-03-12 14:01:04| Ridge_MAE: 14.4864 ± 1.542
+INFO:CF:|2024-03-12 14:01:04| Ridge_RMSE: 18.1488 ± 2.338
+INFO:CF:|2024-03-12 14:01:04| Ridge_NMAE: 0.3061 ± 0.022
+INFO:CF:|2024-03-12 14:01:04| Ridge_NRMSE: 0.3587 ± 0.036
+INFO:CF:|2024-03-12 14:01:04| Lasso_MAE: 14.4568 ± 1.538
+INFO:CF:|2024-03-12 14:01:04| Lasso_RMSE: 18.1605 ± 2.352
+INFO:CF:|2024-03-12 14:01:04| Lasso_NMAE: 0.3050 ± 0.019
+INFO:CF:|2024-03-12 14:01:04| Lasso_NRMSE: 0.3574 ± 0.034
+INFO:CF:|2024-03-12 14:01:04| KNeighborsRegressor_MAE: 8.7127 ± 1.122
+INFO:CF:|2024-03-12 14:01:04| KNeighborsRegressor_RMSE: 14.6822 ± 2.094
+INFO:CF:|2024-03-12 14:01:04| KNeighborsRegressor_NMAE: 0.1890 ± 0.042
+INFO:CF:|2024-03-12 14:01:04| KNeighborsRegressor_NRMSE: 0.2846 ± 0.059
+INFO:CF:|2024-03-12 14:01:04| SVR_MAE: 14.6030 ± 1.565
+INFO:CF:|2024-03-12 14:01:04| SVR_RMSE: 18.2007 ± 2.303
+INFO:CF:|2024-03-12 14:01:04| SVR_NMAE: 0.3080 ± 0.022
+INFO:CF:|2024-03-12 14:01:04| SVR_NRMSE: 0.3594 ± 0.034
+INFO:CF:|2024-03-12 14:01:04| DecisionTreeRegressor_MAE: 10.9845 ± 1.684
+INFO:CF:|2024-03-12 14:01:04| DecisionTreeRegressor_RMSE: 16.9935 ± 4.583
+INFO:CF:|2024-03-12 14:01:04| DecisionTreeRegressor_NMAE: 0.2337 ± 0.050
+INFO:CF:|2024-03-12 14:01:04| DecisionTreeRegressor_NRMSE: 0.3199 ± 0.103
+INFO:CF:|2024-03-12 14:01:04| RandomForestRegressor_MAE: 8.8764 ± 1.486
+INFO:CF:|2024-03-12 14:01:04| RandomForestRegressor_RMSE: 15.9192 ± 3.579
+INFO:CF:|2024-03-12 14:01:04| RandomForestRegressor_NMAE: 0.1870 ± 0.047
+INFO:CF:|2024-03-12 14:01:04| RandomForestRegressor_NRMSE: 0.2991 ± 0.081
+INFO:CF:|2024-03-12 14:01:04| GradientBoostingRegressor_MAE: 10.0284 ± 1.585
+INFO:CF:|2024-03-12 14:01:04| GradientBoostingRegressor_RMSE: 18.1250 ± 4.675
+INFO:CF:|2024-03-12 14:01:04| GradientBoostingRegressor_NMAE: 0.2126 ± 0.052
+INFO:CF:|2024-03-12 14:01:04| GradientBoostingRegressor_NRMSE: 0.3441 ± 0.097
+INFO:CF:|2024-03-12 14:01:04| ********************Experiment Success********************
+INFO:CF:|2024-03-12 14:33:28| Namespace(dataset='cpu', debug=0, density=0.01, dimension=None, epochs=300, experiment=0, log=<utils.logger.Logger object at 0x7fd35805b520>, model='CF', path='./datasets/', program_test=0, record=1, rounds=5, seed=0, valid=1, verbose=1
+INFO:CF:|2024-03-12 14:33:28| ********************Experiment Start*******************
+INFO:CF:|2024-03-12 14:33:28| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:33:28| Runid : 
+INFO:CF:|2024-03-12 14:33:28| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:33:28| 测试集上的表现 - MAE=14.3855, RMSE=19.3734, NMAE=0.3117, NRMSE=0.3889
+INFO:CF:|2024-03-12 14:33:28| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:33:28| 模型: Ridg
+INFO:CF:|2024-03-12 14:33:28| 测试集上的表现 - MAE=14.2397, RMSE=19.2506, NMAE=0.3089, NRMSE=0.3900
+INFO:CF:|2024-03-12 14:33:28| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:28| 模型: Lass
+INFO:CF:|2024-03-12 14:33:28| 测试集上的表现 - MAE=14.3378, RMSE=19.3269, NMAE=0.3108, NRMSE=0.3892
+INFO:CF:|2024-03-12 14:33:28| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:28| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:33:28| 测试集上的表现 - MAE=9.8413, RMSE=16.7498, NMAE=0.2429, NRMSE=0.3750
+INFO:CF:|2024-03-12 14:33:28| Acc = [1%=0.0556, 5%=0.2778, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:33:28| 模型: SV
+INFO:CF:|2024-03-12 14:33:28| 测试集上的表现 - MAE=14.1992, RMSE=19.2422, NMAE=0.3081, NRMSE=0.3904
+INFO:CF:|2024-03-12 14:33:28| Acc = [1%=0.0556, 5%=0.1667, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:33:28| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:33:28| 测试集上的表现 - MAE=13.6574, RMSE=21.5815, NMAE=0.3048, NRMSE=0.4319
+INFO:CF:|2024-03-12 14:33:28| Acc = [1%=0.1111, 5%=0.2778, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:33:28| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:33:29| 测试集上的表现 - MAE=10.4924, RMSE=20.0025, NMAE=0.2376, NRMSE=0.4028
+INFO:CF:|2024-03-12 14:33:29| Acc = [1%=0.1111, 5%=0.3333, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:33:29| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:33:30| 测试集上的表现 - MAE=12.1987, RMSE=22.0429, NMAE=0.2716, NRMSE=0.4446
+INFO:CF:|2024-03-12 14:33:30| Acc = [1%=0.0556, 5%=0.3333, 10%=0.5556] 
+INFO:CF:|2024-03-12 14:33:30| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:33:30| Runid : 
+INFO:CF:|2024-03-12 14:33:30| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:33:30| 测试集上的表现 - MAE=14.5399, RMSE=17.9475, NMAE=0.3003, NRMSE=0.3462
+INFO:CF:|2024-03-12 14:33:30| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:30| 模型: Ridg
+INFO:CF:|2024-03-12 14:33:30| 测试集上的表现 - MAE=14.5396, RMSE=17.9475, NMAE=0.3003, NRMSE=0.3462
+INFO:CF:|2024-03-12 14:33:30| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:30| 模型: Lass
+INFO:CF:|2024-03-12 14:33:30| 测试集上的表现 - MAE=14.4483, RMSE=17.9424, NMAE=0.2989, NRMSE=0.3473
+INFO:CF:|2024-03-12 14:33:30| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:30| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:33:30| 测试集上的表现 - MAE=9.8889, RMSE=16.2481, NMAE=0.1862, NRMSE=0.2779
+INFO:CF:|2024-03-12 14:33:30| Acc = [1%=0.0556, 5%=0.1667, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:33:30| 模型: SV
+INFO:CF:|2024-03-12 14:33:30| 测试集上的表现 - MAE=14.3663, RMSE=17.9301, NMAE=0.2979, NRMSE=0.3484
+INFO:CF:|2024-03-12 14:33:30| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:30| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:33:30| 测试集上的表现 - MAE=8.4222, RMSE=12.1072, NMAE=0.1600, NRMSE=0.2039
+INFO:CF:|2024-03-12 14:33:30| Acc = [1%=0.0000, 5%=0.1667, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:33:30| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:33:31| 测试集上的表现 - MAE=9.6476, RMSE=13.3883, NMAE=0.1768, NRMSE=0.2295
+INFO:CF:|2024-03-12 14:33:31| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:33:31| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:33:32| 测试集上的表现 - MAE=9.9135, RMSE=14.4141, NMAE=0.1905, NRMSE=0.2613
+INFO:CF:|2024-03-12 14:33:32| Acc = [1%=0.0000, 5%=0.1111, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:33:32| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:33:32| Runid : 
+INFO:CF:|2024-03-12 14:33:32| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:33:32| 测试集上的表现 - MAE=14.3814, RMSE=18.5417, NMAE=0.3271, NRMSE=0.3912
+INFO:CF:|2024-03-12 14:33:32| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:32| 模型: Ridg
+INFO:CF:|2024-03-12 14:33:32| 测试集上的表现 - MAE=14.8999, RMSE=18.8636, NMAE=0.3384, NRMSE=0.4004
+INFO:CF:|2024-03-12 14:33:32| Acc = [1%=0.0000, 5%=0.0000, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:32| 模型: Lass
+INFO:CF:|2024-03-12 14:33:32| 测试集上的表现 - MAE=14.5571, RMSE=18.6469, NMAE=0.3309, NRMSE=0.3943
+INFO:CF:|2024-03-12 14:33:32| Acc = [1%=0.0000, 5%=0.0556, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:32| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:33:32| 测试集上的表现 - MAE=9.0556, RMSE=15.2370, NMAE=0.2267, NRMSE=0.3265
+INFO:CF:|2024-03-12 14:33:32| Acc = [1%=0.1111, 5%=0.2222, 10%=0.5000] 
+INFO:CF:|2024-03-12 14:33:32| 模型: SV
+INFO:CF:|2024-03-12 14:33:33| 测试集上的表现 - MAE=15.2438, RMSE=18.9360, NMAE=0.3406, NRMSE=0.3972
+INFO:CF:|2024-03-12 14:33:33| Acc = [1%=0.0000, 5%=0.0000, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:33| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:33:33| 测试集上的表现 - MAE=11.4352, RMSE=23.2667, NMAE=0.2729, NRMSE=0.4571
+INFO:CF:|2024-03-12 14:33:33| Acc = [1%=0.1111, 5%=0.2222, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:33:33| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:33:34| 测试集上的表现 - MAE=9.9973, RMSE=18.4237, NMAE=0.2457, NRMSE=0.3824
+INFO:CF:|2024-03-12 14:33:34| Acc = [1%=0.0000, 5%=0.1667, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:33:34| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:33:35| 测试集上的表现 - MAE=11.4077, RMSE=22.6860, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 14:33:35| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:33:35| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:33:35| Runid : 
+INFO:CF:|2024-03-12 14:33:35| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:33:35| 测试集上的表现 - MAE=16.9535, RMSE=21.0686, NMAE=0.3136, NRMSE=0.3570
+INFO:CF:|2024-03-12 14:33:35| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:35| 模型: Ridg
+INFO:CF:|2024-03-12 14:33:35| 测试集上的表现 - MAE=16.7890, RMSE=20.8240, NMAE=0.3139, NRMSE=0.3595
+INFO:CF:|2024-03-12 14:33:35| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:35| 模型: Lass
+INFO:CF:|2024-03-12 14:33:35| 测试集上的表现 - MAE=16.9005, RMSE=20.9779, NMAE=0.3137, NRMSE=0.3576
+INFO:CF:|2024-03-12 14:33:35| Acc = [1%=0.0000, 5%=0.0556, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:35| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:33:35| 测试集上的表现 - MAE=7.2778, RMSE=14.3391, NMAE=0.1255, NRMSE=0.2277
+INFO:CF:|2024-03-12 14:33:35| Acc = [1%=0.0556, 5%=0.4444, 10%=0.6111] 
+INFO:CF:|2024-03-12 14:33:35| 模型: SV
+INFO:CF:|2024-03-12 14:33:35| 测试集上的表现 - MAE=17.0128, RMSE=20.8904, NMAE=0.3197, NRMSE=0.3600
+INFO:CF:|2024-03-12 14:33:35| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:33:35| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:33:35| 测试集上的表现 - MAE=10.9447, RMSE=15.2161, NMAE=0.2082, NRMSE=0.2612
+INFO:CF:|2024-03-12 14:33:35| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:33:35| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:33:36| 测试集上的表现 - MAE=7.5863, RMSE=17.5288, NMAE=0.1344, NRMSE=0.2829
+INFO:CF:|2024-03-12 14:33:36| Acc = [1%=0.2222, 5%=0.3889, 10%=0.6667] 
+INFO:CF:|2024-03-12 14:33:36| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:33:37| 测试集上的表现 - MAE=8.4616, RMSE=20.6397, NMAE=0.1516, NRMSE=0.3338
+INFO:CF:|2024-03-12 14:33:37| Acc = [1%=0.0000, 5%=0.3333, 10%=0.6667] 
+INFO:CF:|2024-03-12 14:33:37| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:33:37| Runid : 
+INFO:CF:|2024-03-12 14:33:37| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:33:37| 测试集上的表现 - MAE=11.9638, RMSE=13.8581, NMAE=0.2692, NRMSE=0.2974
+INFO:CF:|2024-03-12 14:33:37| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:33:37| 模型: Ridg
+INFO:CF:|2024-03-12 14:33:37| 测试集上的表现 - MAE=11.9640, RMSE=13.8583, NMAE=0.2692, NRMSE=0.2974
+INFO:CF:|2024-03-12 14:33:37| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:33:37| 模型: Lass
+INFO:CF:|2024-03-12 14:33:37| 测试集上的表现 - MAE=12.0403, RMSE=13.9084, NMAE=0.2709, NRMSE=0.2989
+INFO:CF:|2024-03-12 14:33:37| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:33:37| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:33:37| 测试集上的表现 - MAE=7.5000, RMSE=10.8369, NMAE=0.1635, NRMSE=0.2162
+INFO:CF:|2024-03-12 14:33:37| Acc = [1%=0.0556, 5%=0.1111, 10%=0.5000] 
+INFO:CF:|2024-03-12 14:33:37| 模型: SV
+INFO:CF:|2024-03-12 14:33:37| 测试集上的表现 - MAE=12.1929, RMSE=14.0048, NMAE=0.2735, NRMSE=0.3012
+INFO:CF:|2024-03-12 14:33:37| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:33:37| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:33:37| 测试集上的表现 - MAE=10.4632, RMSE=12.7960, NMAE=0.2228, NRMSE=0.2452
+INFO:CF:|2024-03-12 14:33:37| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:33:37| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:33:38| 测试集上的表现 - MAE=6.6585, RMSE=10.2530, NMAE=0.1406, NRMSE=0.1978
+INFO:CF:|2024-03-12 14:33:38| Acc = [1%=0.1111, 5%=0.3333, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:33:38| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:33:39| 测试集上的表现 - MAE=8.1604, RMSE=10.8423, NMAE=0.1708, NRMSE=0.2178
+INFO:CF:|2024-03-12 14:33:39| Acc = [1%=0.0000, 5%=0.2222, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:33:39| ********************Experiment Results:*******************
+INFO:CF:|2024-03-12 14:33:39| LinearRegression_MAE: 14.4448 ± 1.579
+INFO:CF:|2024-03-12 14:33:39| LinearRegression_RMSE: 18.1579 ± 2.392
+INFO:CF:|2024-03-12 14:33:39| LinearRegression_NMAE: 0.3044 ± 0.019
+INFO:CF:|2024-03-12 14:33:39| LinearRegression_NRMSE: 0.3561 ± 0.034
+INFO:CF:|2024-03-12 14:33:39| Ridge_MAE: 14.4864 ± 1.542
+INFO:CF:|2024-03-12 14:33:39| Ridge_RMSE: 18.1488 ± 2.338
+INFO:CF:|2024-03-12 14:33:39| Ridge_NMAE: 0.3061 ± 0.022
+INFO:CF:|2024-03-12 14:33:39| Ridge_NRMSE: 0.3587 ± 0.036
+INFO:CF:|2024-03-12 14:33:39| Lasso_MAE: 14.4568 ± 1.538
+INFO:CF:|2024-03-12 14:33:39| Lasso_RMSE: 18.1605 ± 2.352
+INFO:CF:|2024-03-12 14:33:39| Lasso_NMAE: 0.3050 ± 0.019
+INFO:CF:|2024-03-12 14:33:39| Lasso_NRMSE: 0.3574 ± 0.034
+INFO:CF:|2024-03-12 14:33:39| KNeighborsRegressor_MAE: 8.7127 ± 1.122
+INFO:CF:|2024-03-12 14:33:39| KNeighborsRegressor_RMSE: 14.6822 ± 2.094
+INFO:CF:|2024-03-12 14:33:39| KNeighborsRegressor_NMAE: 0.1890 ± 0.042
+INFO:CF:|2024-03-12 14:33:39| KNeighborsRegressor_NRMSE: 0.2846 ± 0.059
+INFO:CF:|2024-03-12 14:33:39| SVR_MAE: 14.6030 ± 1.565
+INFO:CF:|2024-03-12 14:33:39| SVR_RMSE: 18.2007 ± 2.303
+INFO:CF:|2024-03-12 14:33:39| SVR_NMAE: 0.3080 ± 0.022
+INFO:CF:|2024-03-12 14:33:39| SVR_NRMSE: 0.3594 ± 0.034
+INFO:CF:|2024-03-12 14:33:39| DecisionTreeRegressor_MAE: 10.9845 ± 1.684
+INFO:CF:|2024-03-12 14:33:39| DecisionTreeRegressor_RMSE: 16.9935 ± 4.583
+INFO:CF:|2024-03-12 14:33:39| DecisionTreeRegressor_NMAE: 0.2337 ± 0.050
+INFO:CF:|2024-03-12 14:33:39| DecisionTreeRegressor_NRMSE: 0.3199 ± 0.103
+INFO:CF:|2024-03-12 14:33:39| RandomForestRegressor_MAE: 8.8764 ± 1.486
+INFO:CF:|2024-03-12 14:33:39| RandomForestRegressor_RMSE: 15.9192 ± 3.579
+INFO:CF:|2024-03-12 14:33:39| RandomForestRegressor_NMAE: 0.1870 ± 0.047
+INFO:CF:|2024-03-12 14:33:39| RandomForestRegressor_NRMSE: 0.2991 ± 0.081
+INFO:CF:|2024-03-12 14:33:39| GradientBoostingRegressor_MAE: 10.0284 ± 1.585
+INFO:CF:|2024-03-12 14:33:39| GradientBoostingRegressor_RMSE: 18.1250 ± 4.675
+INFO:CF:|2024-03-12 14:33:39| GradientBoostingRegressor_NMAE: 0.2126 ± 0.052
+INFO:CF:|2024-03-12 14:33:39| GradientBoostingRegressor_NRMSE: 0.3441 ± 0.097
+INFO:CF:|2024-03-12 14:33:40| ********************Experiment Success********************
+INFO:CF:|2024-03-12 14:35:12| Namespace(dataset='cpu', debug=0, density=0.01, dimension=None, epochs=300, experiment=0, log=<utils.logger.Logger object at 0x7f7bb805b520>, model='CF', path='./datasets/', program_test=0, record=1, rounds=5, seed=0, valid=1, verbose=1
+INFO:CF:|2024-03-12 14:35:12| ********************Experiment Start*******************
+INFO:CF:|2024-03-12 14:35:12| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:35:12| Runid : 
+INFO:CF:|2024-03-12 14:35:12| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:35:12| 测试集上的表现 - MAE=14.3855, RMSE=19.3734, NMAE=0.3117, NRMSE=0.3889
+INFO:CF:|2024-03-12 14:35:12| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:35:12| 模型: Ridg
+INFO:CF:|2024-03-12 14:35:12| 测试集上的表现 - MAE=14.2397, RMSE=19.2506, NMAE=0.3089, NRMSE=0.3900
+INFO:CF:|2024-03-12 14:35:12| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:12| 模型: Lass
+INFO:CF:|2024-03-12 14:35:12| 测试集上的表现 - MAE=14.3378, RMSE=19.3269, NMAE=0.3108, NRMSE=0.3892
+INFO:CF:|2024-03-12 14:35:12| Acc = [1%=0.0000, 5%=0.1667, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:12| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:35:12| 测试集上的表现 - MAE=9.8413, RMSE=16.7498, NMAE=0.2429, NRMSE=0.3750
+INFO:CF:|2024-03-12 14:35:12| Acc = [1%=0.0556, 5%=0.2778, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:35:12| 模型: SV
+INFO:CF:|2024-03-12 14:35:12| 测试集上的表现 - MAE=14.1992, RMSE=19.2422, NMAE=0.3081, NRMSE=0.3904
+INFO:CF:|2024-03-12 14:35:12| Acc = [1%=0.0556, 5%=0.1667, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:35:12| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:35:12| 测试集上的表现 - MAE=13.6574, RMSE=21.5815, NMAE=0.3048, NRMSE=0.4319
+INFO:CF:|2024-03-12 14:35:12| Acc = [1%=0.1111, 5%=0.2778, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:35:12| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:35:13| 测试集上的表现 - MAE=10.4924, RMSE=20.0025, NMAE=0.2376, NRMSE=0.4028
+INFO:CF:|2024-03-12 14:35:13| Acc = [1%=0.1111, 5%=0.3333, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:35:13| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:35:15| 测试集上的表现 - MAE=12.1987, RMSE=22.0429, NMAE=0.2716, NRMSE=0.4446
+INFO:CF:|2024-03-12 14:35:15| Acc = [1%=0.0556, 5%=0.3333, 10%=0.5556] 
+INFO:CF:|2024-03-12 14:35:15| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:35:15| Runid : 
+INFO:CF:|2024-03-12 14:35:15| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:35:15| 测试集上的表现 - MAE=14.5399, RMSE=17.9475, NMAE=0.3003, NRMSE=0.3462
+INFO:CF:|2024-03-12 14:35:15| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:15| 模型: Ridg
+INFO:CF:|2024-03-12 14:35:15| 测试集上的表现 - MAE=14.5396, RMSE=17.9475, NMAE=0.3003, NRMSE=0.3462
+INFO:CF:|2024-03-12 14:35:15| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:15| 模型: Lass
+INFO:CF:|2024-03-12 14:35:15| 测试集上的表现 - MAE=14.4483, RMSE=17.9424, NMAE=0.2989, NRMSE=0.3473
+INFO:CF:|2024-03-12 14:35:15| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:15| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:35:15| 测试集上的表现 - MAE=9.8889, RMSE=16.2481, NMAE=0.1862, NRMSE=0.2779
+INFO:CF:|2024-03-12 14:35:15| Acc = [1%=0.0556, 5%=0.1667, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:35:15| 模型: SV
+INFO:CF:|2024-03-12 14:35:15| 测试集上的表现 - MAE=14.3663, RMSE=17.9301, NMAE=0.2979, NRMSE=0.3484
+INFO:CF:|2024-03-12 14:35:15| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:15| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:35:15| 测试集上的表现 - MAE=8.4222, RMSE=12.1072, NMAE=0.1600, NRMSE=0.2039
+INFO:CF:|2024-03-12 14:35:15| Acc = [1%=0.0000, 5%=0.1667, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:35:15| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:35:16| 测试集上的表现 - MAE=9.6476, RMSE=13.3883, NMAE=0.1768, NRMSE=0.2295
+INFO:CF:|2024-03-12 14:35:16| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:35:16| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:35:17| 测试集上的表现 - MAE=9.9135, RMSE=14.4141, NMAE=0.1905, NRMSE=0.2613
+INFO:CF:|2024-03-12 14:35:17| Acc = [1%=0.0000, 5%=0.1111, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:35:17| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:35:17| Runid : 
+INFO:CF:|2024-03-12 14:35:17| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:35:17| 测试集上的表现 - MAE=14.3814, RMSE=18.5417, NMAE=0.3271, NRMSE=0.3912
+INFO:CF:|2024-03-12 14:35:17| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:17| 模型: Ridg
+INFO:CF:|2024-03-12 14:35:17| 测试集上的表现 - MAE=14.8999, RMSE=18.8636, NMAE=0.3384, NRMSE=0.4004
+INFO:CF:|2024-03-12 14:35:17| Acc = [1%=0.0000, 5%=0.0000, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:17| 模型: Lass
+INFO:CF:|2024-03-12 14:35:17| 测试集上的表现 - MAE=14.5571, RMSE=18.6469, NMAE=0.3309, NRMSE=0.3943
+INFO:CF:|2024-03-12 14:35:17| Acc = [1%=0.0000, 5%=0.0556, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:17| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:35:17| 测试集上的表现 - MAE=9.0556, RMSE=15.2370, NMAE=0.2267, NRMSE=0.3265
+INFO:CF:|2024-03-12 14:35:17| Acc = [1%=0.1111, 5%=0.2222, 10%=0.5000] 
+INFO:CF:|2024-03-12 14:35:17| 模型: SV
+INFO:CF:|2024-03-12 14:35:17| 测试集上的表现 - MAE=15.2438, RMSE=18.9360, NMAE=0.3406, NRMSE=0.3972
+INFO:CF:|2024-03-12 14:35:17| Acc = [1%=0.0000, 5%=0.0000, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:17| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:35:17| 测试集上的表现 - MAE=11.4352, RMSE=23.2667, NMAE=0.2729, NRMSE=0.4571
+INFO:CF:|2024-03-12 14:35:17| Acc = [1%=0.1111, 5%=0.2222, 10%=0.2778] 
+INFO:CF:|2024-03-12 14:35:17| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:35:18| 测试集上的表现 - MAE=9.9973, RMSE=18.4237, NMAE=0.2457, NRMSE=0.3824
+INFO:CF:|2024-03-12 14:35:18| Acc = [1%=0.0000, 5%=0.1667, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:35:18| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:35:19| 测试集上的表现 - MAE=11.4077, RMSE=22.6860, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 14:35:19| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:35:19| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:35:19| Runid : 
+INFO:CF:|2024-03-12 14:35:19| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:35:19| 测试集上的表现 - MAE=16.9535, RMSE=21.0686, NMAE=0.3136, NRMSE=0.3570
+INFO:CF:|2024-03-12 14:35:19| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:19| 模型: Ridg
+INFO:CF:|2024-03-12 14:35:19| 测试集上的表现 - MAE=16.7890, RMSE=20.8240, NMAE=0.3139, NRMSE=0.3595
+INFO:CF:|2024-03-12 14:35:19| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:19| 模型: Lass
+INFO:CF:|2024-03-12 14:35:19| 测试集上的表现 - MAE=16.9005, RMSE=20.9779, NMAE=0.3137, NRMSE=0.3576
+INFO:CF:|2024-03-12 14:35:19| Acc = [1%=0.0000, 5%=0.0556, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:19| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:35:19| 测试集上的表现 - MAE=7.2778, RMSE=14.3391, NMAE=0.1255, NRMSE=0.2277
+INFO:CF:|2024-03-12 14:35:19| Acc = [1%=0.0556, 5%=0.4444, 10%=0.6111] 
+INFO:CF:|2024-03-12 14:35:19| 模型: SV
+INFO:CF:|2024-03-12 14:35:19| 测试集上的表现 - MAE=17.0128, RMSE=20.8904, NMAE=0.3197, NRMSE=0.3600
+INFO:CF:|2024-03-12 14:35:19| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:35:19| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:35:19| 测试集上的表现 - MAE=10.9447, RMSE=15.2161, NMAE=0.2082, NRMSE=0.2612
+INFO:CF:|2024-03-12 14:35:19| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:35:19| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:35:20| 测试集上的表现 - MAE=7.5863, RMSE=17.5288, NMAE=0.1344, NRMSE=0.2829
+INFO:CF:|2024-03-12 14:35:20| Acc = [1%=0.2222, 5%=0.3889, 10%=0.6667] 
+INFO:CF:|2024-03-12 14:35:20| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:35:22| 测试集上的表现 - MAE=8.4616, RMSE=20.6397, NMAE=0.1516, NRMSE=0.3338
+INFO:CF:|2024-03-12 14:35:22| Acc = [1%=0.0000, 5%=0.3333, 10%=0.6667] 
+INFO:CF:|2024-03-12 14:35:22| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:35:22| Runid : 
+INFO:CF:|2024-03-12 14:35:22| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:35:22| 测试集上的表现 - MAE=11.9638, RMSE=13.8581, NMAE=0.2692, NRMSE=0.2974
+INFO:CF:|2024-03-12 14:35:22| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:35:22| 模型: Ridg
+INFO:CF:|2024-03-12 14:35:22| 测试集上的表现 - MAE=11.9640, RMSE=13.8583, NMAE=0.2692, NRMSE=0.2974
+INFO:CF:|2024-03-12 14:35:22| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:35:22| 模型: Lass
+INFO:CF:|2024-03-12 14:35:22| 测试集上的表现 - MAE=12.0403, RMSE=13.9084, NMAE=0.2709, NRMSE=0.2989
+INFO:CF:|2024-03-12 14:35:22| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:35:22| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:35:22| 测试集上的表现 - MAE=7.5000, RMSE=10.8369, NMAE=0.1635, NRMSE=0.2162
+INFO:CF:|2024-03-12 14:35:22| Acc = [1%=0.0556, 5%=0.1111, 10%=0.5000] 
+INFO:CF:|2024-03-12 14:35:22| 模型: SV
+INFO:CF:|2024-03-12 14:35:22| 测试集上的表现 - MAE=12.1929, RMSE=14.0048, NMAE=0.2735, NRMSE=0.3012
+INFO:CF:|2024-03-12 14:35:22| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:35:22| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:35:22| 测试集上的表现 - MAE=10.4632, RMSE=12.7960, NMAE=0.2228, NRMSE=0.2452
+INFO:CF:|2024-03-12 14:35:22| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3333] 
+INFO:CF:|2024-03-12 14:35:22| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:35:23| 测试集上的表现 - MAE=6.6585, RMSE=10.2530, NMAE=0.1406, NRMSE=0.1978
+INFO:CF:|2024-03-12 14:35:23| Acc = [1%=0.1111, 5%=0.3333, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:35:23| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:35:24| 测试集上的表现 - MAE=8.1604, RMSE=10.8423, NMAE=0.1708, NRMSE=0.2178
+INFO:CF:|2024-03-12 14:35:24| Acc = [1%=0.0000, 5%=0.2222, 10%=0.4444] 
+INFO:CF:|2024-03-12 14:35:24| ********************Experiment Results:*******************
+INFO:CF:|2024-03-12 14:35:24| LinearRegression_MAE: 14.4448 ± 1.579
+INFO:CF:|2024-03-12 14:35:24| LinearRegression_RMSE: 18.1579 ± 2.392
+INFO:CF:|2024-03-12 14:35:24| LinearRegression_NMAE: 0.3044 ± 0.019
+INFO:CF:|2024-03-12 14:35:24| LinearRegression_NRMSE: 0.3561 ± 0.034
+INFO:CF:|2024-03-12 14:35:24| Ridge_MAE: 14.4864 ± 1.542
+INFO:CF:|2024-03-12 14:35:24| Ridge_RMSE: 18.1488 ± 2.338
+INFO:CF:|2024-03-12 14:35:24| Ridge_NMAE: 0.3061 ± 0.022
+INFO:CF:|2024-03-12 14:35:24| Ridge_NRMSE: 0.3587 ± 0.036
+INFO:CF:|2024-03-12 14:35:24| Lasso_MAE: 14.4568 ± 1.538
+INFO:CF:|2024-03-12 14:35:24| Lasso_RMSE: 18.1605 ± 2.352
+INFO:CF:|2024-03-12 14:35:24| Lasso_NMAE: 0.3050 ± 0.019
+INFO:CF:|2024-03-12 14:35:24| Lasso_NRMSE: 0.3574 ± 0.034
+INFO:CF:|2024-03-12 14:35:24| KNeighborsRegressor_MAE: 8.7127 ± 1.122
+INFO:CF:|2024-03-12 14:35:24| KNeighborsRegressor_RMSE: 14.6822 ± 2.094
+INFO:CF:|2024-03-12 14:35:24| KNeighborsRegressor_NMAE: 0.1890 ± 0.042
+INFO:CF:|2024-03-12 14:35:24| KNeighborsRegressor_NRMSE: 0.2846 ± 0.059
+INFO:CF:|2024-03-12 14:35:24| SVR_MAE: 14.6030 ± 1.565
+INFO:CF:|2024-03-12 14:35:24| SVR_RMSE: 18.2007 ± 2.303
+INFO:CF:|2024-03-12 14:35:24| SVR_NMAE: 0.3080 ± 0.022
+INFO:CF:|2024-03-12 14:35:24| SVR_NRMSE: 0.3594 ± 0.034
+INFO:CF:|2024-03-12 14:35:24| DecisionTreeRegressor_MAE: 10.9845 ± 1.684
+INFO:CF:|2024-03-12 14:35:24| DecisionTreeRegressor_RMSE: 16.9935 ± 4.583
+INFO:CF:|2024-03-12 14:35:24| DecisionTreeRegressor_NMAE: 0.2337 ± 0.050
+INFO:CF:|2024-03-12 14:35:24| DecisionTreeRegressor_NRMSE: 0.3199 ± 0.103
+INFO:CF:|2024-03-12 14:35:24| RandomForestRegressor_MAE: 8.8764 ± 1.486
+INFO:CF:|2024-03-12 14:35:24| RandomForestRegressor_RMSE: 15.9192 ± 3.579
+INFO:CF:|2024-03-12 14:35:24| RandomForestRegressor_NMAE: 0.1870 ± 0.047
+INFO:CF:|2024-03-12 14:35:24| RandomForestRegressor_NRMSE: 0.2991 ± 0.081
+INFO:CF:|2024-03-12 14:35:24| GradientBoostingRegressor_MAE: 10.0284 ± 1.585
+INFO:CF:|2024-03-12 14:35:24| GradientBoostingRegressor_RMSE: 18.1250 ± 4.675
+INFO:CF:|2024-03-12 14:35:24| GradientBoostingRegressor_NMAE: 0.2126 ± 0.052
+INFO:CF:|2024-03-12 14:35:24| GradientBoostingRegressor_NRMSE: 0.3441 ± 0.097
+INFO:CF:|2024-03-12 14:35:24| ********************Experiment Success********************
+INFO:CF:|2024-03-12 14:39:03| Namespace(dataset='cpu', debug=0, density=0.01, dimension=None, epochs=300, experiment=0, log=<utils.logger.Logger object at 0x7fdae005b520>, model='CF', path='./datasets/', program_test=0, record=1, rounds=5, seed=0, valid=1, verbose=1
+INFO:CF:|2024-03-12 14:39:03| ********************Experiment Start*******************
+INFO:CF:|2024-03-12 14:39:03| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:39:03| Runid : 
+INFO:CF:|2024-03-12 14:39:03| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:39:03| 测试集上的表现 - MAE=4.9541, RMSE=5.6172, NMAE=0.2508, NRMSE=0.2472
+INFO:CF:|2024-03-12 14:39:03| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:39:03| 模型: Ridg
+INFO:CF:|2024-03-12 14:39:03| 测试集上的表现 - MAE=4.9541, RMSE=5.6173, NMAE=0.2508, NRMSE=0.2472
+INFO:CF:|2024-03-12 14:39:03| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:39:03| 模型: Lass
+INFO:CF:|2024-03-12 14:39:03| 测试集上的表现 - MAE=4.9440, RMSE=5.6364, NMAE=0.2503, NRMSE=0.2486
+INFO:CF:|2024-03-12 14:39:03| Acc = [1%=0.0556, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:39:03| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:39:03| 测试集上的表现 - MAE=0.3704, RMSE=0.9623, NMAE=0.0204, NRMSE=0.0427
+INFO:CF:|2024-03-12 14:39:03| Acc = [1%=0.6111, 5%=0.6111, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:39:03| 模型: SV
+INFO:CF:|2024-03-12 14:39:03| 测试集上的表现 - MAE=4.9501, RMSE=5.6175, NMAE=0.2500, NRMSE=0.2462
+INFO:CF:|2024-03-12 14:39:03| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:39:03| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:39:03| 测试集上的表现 - MAE=0.2778, RMSE=1.1785, NMAE=0.0154, NRMSE=0.0522
+INFO:CF:|2024-03-12 14:39:03| Acc = [1%=0.7222, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:39:03| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:39:04| 测试集上的表现 - MAE=0.3722, RMSE=0.8715, NMAE=0.0207, NRMSE=0.0390
+INFO:CF:|2024-03-12 14:39:04| Acc = [1%=0.5556, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:39:04| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:39:05| 测试集上的表现 - MAE=0.4228, RMSE=0.8676, NMAE=0.0231, NRMSE=0.0382
+INFO:CF:|2024-03-12 14:39:05| Acc = [1%=0.3889, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:39:05| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:39:05| Runid : 
+INFO:CF:|2024-03-12 14:39:05| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:39:05| 测试集上的表现 - MAE=4.0117, RMSE=4.9943, NMAE=0.1952, NRMSE=0.2084
+INFO:CF:|2024-03-12 14:39:05| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:39:05| 模型: Ridg
+INFO:CF:|2024-03-12 14:39:05| 测试集上的表现 - MAE=4.0117, RMSE=4.9943, NMAE=0.1952, NRMSE=0.2084
+INFO:CF:|2024-03-12 14:39:05| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:39:05| 模型: Lass
+INFO:CF:|2024-03-12 14:39:05| 测试集上的表现 - MAE=4.0025, RMSE=4.9972, NMAE=0.1948, NRMSE=0.2092
+INFO:CF:|2024-03-12 14:39:05| Acc = [1%=0.0556, 5%=0.2222, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:39:05| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:39:05| 测试集上的表现 - MAE=0.5556, RMSE=1.4699, NMAE=0.0274, NRMSE=0.0604
+INFO:CF:|2024-03-12 14:39:05| Acc = [1%=0.7222, 5%=0.7222, 10%=0.7778] 
+INFO:CF:|2024-03-12 14:39:05| 模型: SV
+INFO:CF:|2024-03-12 14:39:05| 测试集上的表现 - MAE=3.9285, RMSE=4.9870, NMAE=0.1897, NRMSE=0.2073
+INFO:CF:|2024-03-12 14:39:05| Acc = [1%=0.0556, 5%=0.2778, 10%=0.3889] 
+INFO:CF:|2024-03-12 14:39:05| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:39:05| 测试集上的表现 - MAE=0.2778, RMSE=1.1785, NMAE=0.0135, NRMSE=0.0477
+INFO:CF:|2024-03-12 14:39:05| Acc = [1%=0.8333, 5%=0.8333, 10%=0.8333] 
+INFO:CF:|2024-03-12 14:39:05| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:39:06| 测试集上的表现 - MAE=0.5611, RMSE=1.0047, NMAE=0.0276, NRMSE=0.0415
+INFO:CF:|2024-03-12 14:39:06| Acc = [1%=0.4444, 5%=0.7222, 10%=0.8333] 
+INFO:CF:|2024-03-12 14:39:06| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:39:07| 测试集上的表现 - MAE=0.3864, RMSE=0.6930, NMAE=0.0187, NRMSE=0.0281
+INFO:CF:|2024-03-12 14:39:07| Acc = [1%=0.6667, 5%=0.7778, 10%=0.7778] 
+INFO:CF:|2024-03-12 14:39:07| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:39:07| Runid : 
+INFO:CF:|2024-03-12 14:39:07| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:39:07| 测试集上的表现 - MAE=5.0102, RMSE=5.6974, NMAE=0.2625, NRMSE=0.2594
+INFO:CF:|2024-03-12 14:39:07| Acc = [1%=0.0556, 5%=0.1111, 10%=0.1111] 
+INFO:CF:|2024-03-12 14:39:07| 模型: Ridg
+INFO:CF:|2024-03-12 14:39:07| 测试集上的表现 - MAE=5.4002, RMSE=6.4795, NMAE=0.2813, NRMSE=0.3105
+INFO:CF:|2024-03-12 14:39:07| Acc = [1%=0.0000, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:39:07| 模型: Lass
+INFO:CF:|2024-03-12 14:39:07| 测试集上的表现 - MAE=4.9770, RMSE=5.8759, NMAE=0.2601, NRMSE=0.2734
+INFO:CF:|2024-03-12 14:39:07| Acc = [1%=0.0556, 5%=0.1667, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:39:07| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:39:07| 测试集上的表现 - MAE=0.7407, RMSE=1.2423, NMAE=0.0381, NRMSE=0.0536
+INFO:CF:|2024-03-12 14:39:07| Acc = [1%=0.4444, 5%=0.4444, 10%=0.7778] 
+INFO:CF:|2024-03-12 14:39:07| 模型: SV
+INFO:CF:|2024-03-12 14:39:07| 测试集上的表现 - MAE=6.4533, RMSE=7.7683, NMAE=0.3313, NRMSE=0.3812
+INFO:CF:|2024-03-12 14:39:07| Acc = [1%=0.0556, 5%=0.1111, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:39:07| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:39:07| 测试集上的表现 - MAE=0.7407, RMSE=1.8426, NMAE=0.0374, NRMSE=0.0779
+INFO:CF:|2024-03-12 14:39:07| Acc = [1%=0.6667, 5%=0.6667, 10%=0.6667] 
+INFO:CF:|2024-03-12 14:39:07| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:39:08| 测试集上的表现 - MAE=0.4556, RMSE=0.8472, NMAE=0.0231, NRMSE=0.0361
+INFO:CF:|2024-03-12 14:39:08| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7778] 
+INFO:CF:|2024-03-12 14:39:08| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:39:09| 测试集上的表现 - MAE=0.4491, RMSE=0.9523, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 14:39:09| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:39:09| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 14:39:09| Runid : 
+INFO:CF:|2024-03-12 14:39:09| 模型: LinearRegressio
+INFO:CF:|2024-03-12 14:39:09| 测试集上的表现 - MAE=4.4516, RMSE=5.0350, NMAE=0.2220, NRMSE=0.2144
+INFO:CF:|2024-03-12 14:39:09| Acc = [1%=0.0000, 5%=0.0556, 10%=0.2222] 
+INFO:CF:|2024-03-12 14:39:09| 模型: Ridg
+INFO:CF:|2024-03-12 14:39:09| 测试集上的表现 - MAE=4.4062, RMSE=5.0206, NMAE=0.2201, NRMSE=0.2159
+INFO:CF:|2024-03-12 14:39:09| Acc = [1%=0.0000, 5%=0.1111, 10%=0.1667] 
+INFO:CF:|2024-03-12 14:39:09| 模型: Lass
+INFO:CF:|2024-03-12 14:39:09| 测试集上的表现 - MAE=4.3697, RMSE=5.1033, NMAE=0.2191, NRMSE=0.2241
+INFO:CF:|2024-03-12 14:39:09| Acc = [1%=0.0000, 5%=0.1111, 10%=0.1667] 
+INFO:CF:|2024-03-12 14:39:09| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 14:39:09| 测试集上的表现 - MAE=0.0926, RMSE=0.3928, NMAE=0.0043, NRMSE=0.0159
+INFO:CF:|2024-03-12 14:39:09| Acc = [1%=0.8333, 5%=0.8333, 10%=0.8889] 
+INFO:CF:|2024-03-12 14:39:09| 模型: SV
+INFO:CF:|2024-03-12 14:39:09| 测试集上的表现 - MAE=4.2300, RMSE=4.9157, NMAE=0.2074, NRMSE=0.2086
+INFO:CF:|2024-03-12 14:39:09| Acc = [1%=0.0556, 5%=0.1111, 10%=0.1667] 
+INFO:CF:|2024-03-12 14:39:09| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 14:39:09| 测试集上的表现 - MAE=0.2778, RMSE=1.1785, NMAE=0.0132, NRMSE=0.0482
+INFO:CF:|2024-03-12 14:39:09| Acc = [1%=0.8333, 5%=0.8333, 10%=0.8333] 
+INFO:CF:|2024-03-12 14:39:09| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 14:44:14| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:44:15| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 14:44:15| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:45:34| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:45:35| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 14:45:35| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:DNN:|2024-03-12 14:46:45| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7faf1005ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 14:46:45| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 14:47:00| Round=1 BestEpoch=5000 MAE=18.0403 RMSE=22.1821 NMAE=0.9840 NRMSE=0.9812 Training_time=11.3 
+INFO:DNN:|2024-03-12 14:47:00| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 14:47:25| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7f828005ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 14:47:25| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 14:47:41| Round=1 BestEpoch=4999 MAE=11.2983 RMSE=13.5344 NMAE=0.6163 NRMSE=0.5987 Training_time=11.5 
+INFO:DNN:|2024-03-12 14:47:41| Acc = [1%=0.1667, 5%=0.1667, 10%=0.1667]
+INFO:DNN:|2024-03-12 14:47:56| Round=2 BestEpoch=5000 MAE=12.4448 RMSE=14.3926 NMAE=0.5974 NRMSE=0.5815 Training_time=11.9 
+INFO:DNN:|2024-03-12 14:47:56| Acc = [1%=0.0000, 5%=0.0556, 10%=0.0556]
+INFO:DNN:|2024-03-12 14:48:11| Round=3 BestEpoch=5000 MAE=11.5653 RMSE=13.5070 NMAE=0.5783 NRMSE=0.5702 Training_time=11.5 
+INFO:DNN:|2024-03-12 14:48:11| Acc = [1%=0.1111, 5%=0.1111, 10%=0.1111]
+INFO:DNN:|2024-03-12 14:48:26| Round=4 BestEpoch=5000 MAE=41.0499 RMSE=42.9353 NMAE=1.9192 NRMSE=1.7270 Training_time=11.6 
+INFO:DNN:|2024-03-12 14:48:26| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 14:48:29| Round=5 BestEpoch=10 MAE=9.4076 RMSE=11.1016 NMAE=0.4770 NRMSE=0.4958 Training_time=0.0 
+INFO:DNN:|2024-03-12 14:48:29| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 14:48:29| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-12 14:48:29| MAE: 17.1532 ± 11.989
+INFO:DNN:|2024-03-12 14:48:29| RMSE: 19.0942 ± 11.970
+INFO:DNN:|2024-03-12 14:48:29| NMAE: 0.8376 ± 0.542
+INFO:DNN:|2024-03-12 14:48:29| NRMSE: 0.7946 ± 0.467
+INFO:DNN:|2024-03-12 14:48:29| Acc: 0.0630 ± 0.066
+INFO:DNN:|2024-03-12 14:48:29| ********************Experiment Success*******************
+INFO:DNN:|2024-03-12 14:51:30| MAE=3.8702 RMSE=4.9334 NMAE=0.1786 NRMSE=0.194
+INFO:DNN:|2024-03-12 14:51:30| Acc = [1%=0.0556, 5%=0.1111, 10%=0.3889
+INFO:CF:|2024-03-12 14:53:15| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:53:16| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 14:53:16| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:53:16| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:53:17| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 14:53:17| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:54:28| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:54:29| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 14:54:29| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 14:54:29| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 14:54:30| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 14:54:30| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:DNN:|2024-03-12 14:54:39| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7fd5b8114a30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 14:54:39| ********************Experiment Start*******************
+INFO:CF:|2024-03-12 15:00:38| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:00:39| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:00:39| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:00:39| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:00:41| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:00:41| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:01:07| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:01:08| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:01:08| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:01:08| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:01:09| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:01:09| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:01:26| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:01:27| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:01:27| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:01:27| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:01:28| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:01:28| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:01:44| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:01:45| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:01:45| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:01:45| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:01:46| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:01:46| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:01:59| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:02:00| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:02:00| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:02:00| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:02:01| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:02:01| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:02:20| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:02:21| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:02:21| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:02:21| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:02:23| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:02:23| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:03:24| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:03:25| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:03:25| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:03:25| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:03:26| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:03:26| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:03:48| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:03:49| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:03:49| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:03:49| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:03:50| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:03:50| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:04:11| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:04:12| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:04:12| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:04:12| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:04:13| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:04:13| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:04:44| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:04:45| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:04:45| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:04:45| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:04:46| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:04:46| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:08:44| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:08:45| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:08:45| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:08:45| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:08:46| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:08:46| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:10:31| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:10:32| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:10:32| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:10:32| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:10:33| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:10:33| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:12:23| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:12:24| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:12:24| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:12:24| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:12:25| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:12:25| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:12:36| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:12:37| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:12:37| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:12:37| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:12:38| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:12:38| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:12:48| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:12:49| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:12:49| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:12:49| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:12:50| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:12:50| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:29:49| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:29:50| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:29:50| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:29:50| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:29:51| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:29:51| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:42:53| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:42:54| 测试集上的表现 - MAE=0.4496, RMSE=0.9528, NMAE=0.0224, NRMSE=0.0401
+INFO:CF:|2024-03-12 15:42:54| Acc = [1%=0.5000, 5%=0.7222, 10%=0.7222] 
+INFO:CF:|2024-03-12 15:42:54| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:42:55| 测试集上的表现 - MAE=11.4080, RMSE=22.6857, NMAE=0.2787, NRMSE=0.4632
+INFO:CF:|2024-03-12 15:42:55| Acc = [1%=0.0000, 5%=0.2222, 10%=0.3333] 
+INFO:CF:|2024-03-12 15:54:50| 模型: LinearRegressio
+INFO:CF:|2024-03-12 15:54:50| 模型: Ridg
+INFO:CF:|2024-03-12 15:54:50| 模型: Lass
+INFO:CF:|2024-03-12 15:54:50| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 15:54:50| 模型: SV
+INFO:CF:|2024-03-12 15:54:50| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 15:54:50| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 15:54:51| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:54:52| 模型: LinearRegressio
+INFO:CF:|2024-03-12 15:54:52| 模型: Ridg
+INFO:CF:|2024-03-12 15:54:52| 模型: Lass
+INFO:CF:|2024-03-12 15:54:52| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 15:54:52| 模型: SV
+INFO:CF:|2024-03-12 15:54:52| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 15:54:52| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 15:54:53| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:55:20| 模型: LinearRegressio
+INFO:CF:|2024-03-12 15:55:20| 模型: Ridg
+INFO:CF:|2024-03-12 15:55:20| 模型: Lass
+INFO:CF:|2024-03-12 15:55:20| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 15:55:20| 模型: SV
+INFO:CF:|2024-03-12 15:55:20| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 15:55:20| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 15:55:21| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:55:22| 模型: LinearRegressio
+INFO:CF:|2024-03-12 15:55:22| 模型: Ridg
+INFO:CF:|2024-03-12 15:55:22| 模型: Lass
+INFO:CF:|2024-03-12 15:55:22| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 15:55:22| 模型: SV
+INFO:CF:|2024-03-12 15:55:22| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 15:55:22| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 15:55:24| 模型: LinearRegressio
+INFO:CF:|2024-03-12 15:55:24| 模型: Ridg
+INFO:CF:|2024-03-12 15:55:24| 模型: Lass
+INFO:CF:|2024-03-12 15:55:24| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 15:55:24| 模型: SV
+INFO:CF:|2024-03-12 15:55:24| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 15:55:24| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 15:55:26| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:55:27| 模型: LinearRegressio
+INFO:CF:|2024-03-12 15:55:27| 模型: Ridg
+INFO:CF:|2024-03-12 15:55:27| 模型: Lass
+INFO:CF:|2024-03-12 15:55:27| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 15:55:27| 模型: SV
+INFO:CF:|2024-03-12 15:55:27| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 15:55:27| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 15:55:28| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 15:58:45| 最佳模型: GradientBoostingRegressor 最佳参数: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100} 最佳分数: 0.4490546856197108
+INFO:CF:|2024-03-12 15:58:45| 测试集上的表现 - MAE=0.4246, RMSE=0.8581, NMAE=0.0210, NRMSE=0.035
+INFO:CF:|2024-03-12 15:58:45| Acc = [1%=0.3333, 5%=0.7222, 10%=0.7222
+INFO:CF:|2024-03-12 15:58:48| 最佳模型: KNeighborsRegressor 最佳参数: {'n_neighbors': 5} 最佳分数: 9.05555555555555
+INFO:CF:|2024-03-12 15:59:11| 最佳模型: GradientBoostingRegressor 最佳参数: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100} 最佳分数: 0.4490546856197108
+INFO:CF:|2024-03-12 15:59:11| 测试集上的表现 - MAE=0.4246, RMSE=0.8581, NMAE=0.0210, NRMSE=0.035
+INFO:CF:|2024-03-12 15:59:11| Acc = [1%=0.3333, 5%=0.7222, 10%=0.7222
+INFO:CF:|2024-03-12 15:59:14| 最佳模型: KNeighborsRegressor 最佳参数: {'n_neighbors': 5} 最佳分数: 9.05555555555555
+INFO:CF:|2024-03-12 15:59:14| 测试集上的表现 - MAE=9.2778, RMSE=15.2334, NMAE=0.2323, NRMSE=0.326
+INFO:CF:|2024-03-12 15:59:14| Acc = [1%=0.1667, 5%=0.2222, 10%=0.3333
+INFO:CF:|2024-03-12 15:59:44| 最佳模型: LinearRegression 最佳参数: None 最佳NMAE: 0.2624914040469466
+INFO:CF:|2024-03-12 16:00:00| 最佳模型: LinearRegression 最佳参数: None 最佳NMAE: 0.2624914040469466
+INFO:CF:|2024-03-12 16:00:17| 最佳模型: LinearRegression 最佳参数: None 最佳NMAE: 0.2624914040469466
+INFO:CF:|2024-03-12 16:00:32| 最佳模型: LinearRegression 最佳参数: None 最佳NMAE: 0.2624914040469466
+INFO:CF:|2024-03-12 16:01:03| 最佳模型: LinearRegression 最佳参数: None 最佳NMAE: 0.2624914040469466
+INFO:CF:|2024-03-12 16:01:16| 最佳模型: LinearRegression 最佳参数: None 最佳NMAE: 0.2624914040469466
+INFO:CF:|2024-03-12 16:01:16| 测试集上的表现 - MAE=4.9758, RMSE=5.7635, NMAE=0.2603, NRMSE=0.264
+INFO:CF:|2024-03-12 16:01:16| Acc = [1%=0.1111, 5%=0.1111, 10%=0.2222
+INFO:CF:|2024-03-12 16:01:19| 最佳模型: LinearRegression 最佳参数: None 最佳NMAE: 0.3271266211557045
+INFO:CF:|2024-03-12 16:01:19| 测试集上的表现 - MAE=14.4555, RMSE=18.5349, NMAE=0.3315, NRMSE=0.394
+INFO:CF:|2024-03-12 16:01:19| Acc = [1%=0.0000, 5%=0.0556, 10%=0.1667
+INFO:CF:|2024-03-12 16:01:33| 最佳模型: GradientBoostingRegressor 最佳参数: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100} 最佳NMAE: 0.02239147503422131
+INFO:CF:|2024-03-12 16:01:33| 测试集上的表现 - MAE=0.4246, RMSE=0.8581, NMAE=0.0210, NRMSE=0.035
+INFO:CF:|2024-03-12 16:01:33| Acc = [1%=0.3333, 5%=0.7222, 10%=0.7222
+INFO:CF:|2024-03-12 16:01:35| 最佳模型: KNeighborsRegressor 最佳参数: {'n_neighbors': 5} 最佳NMAE: 0.2267037552155772
+INFO:CF:|2024-03-12 16:01:35| 测试集上的表现 - MAE=9.2778, RMSE=15.2334, NMAE=0.2323, NRMSE=0.326
+INFO:CF:|2024-03-12 16:01:35| Acc = [1%=0.1667, 5%=0.2222, 10%=0.3333
+INFO:DNN:|2024-03-12 16:06:08| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7f84d805ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 16:06:08| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 16:06:11| Round=1 BestEpoch=222 MAE=1383.7169 RMSE=1919.5365 NMAE=0.5068 NRMSE=0.6320 Training_time=0.4 
+INFO:DNN:|2024-03-12 16:06:11| Acc = [1%=0.0000, 5%=0.5000, 10%=0.5000]
+INFO:DNN:|2024-03-12 16:06:13| Round=2 BestEpoch=384 MAE=2030.5704 RMSE=2164.0736 NMAE=0.4778 NRMSE=0.5014 Training_time=0.5 
+INFO:DNN:|2024-03-12 16:06:13| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:06:14| Round=3 BestEpoch=46 MAE=638.1895 RMSE=769.7169 NMAE=0.3113 NRMSE=0.3579 Training_time=0.1 
+INFO:DNN:|2024-03-12 16:06:14| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000]
+INFO:DNN:|2024-03-12 16:06:17| Round=4 BestEpoch=327 MAE=2532.7691 RMSE=2549.7991 NMAE=0.6845 NRMSE=0.6869 Training_time=0.4 
+INFO:DNN:|2024-03-12 16:06:17| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:06:19| Round=5 BestEpoch=285 MAE=1737.1483 RMSE=1776.8464 NMAE=0.5889 NRMSE=0.4946 Training_time=0.4 
+INFO:DNN:|2024-03-12 16:06:19| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:06:19| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-12 16:06:19| MAE: 1664.4788 ± 636.447
+INFO:DNN:|2024-03-12 16:06:19| RMSE: 1835.9945 ± 594.067
+INFO:DNN:|2024-03-12 16:06:19| NMAE: 0.5139 ± 0.124
+INFO:DNN:|2024-03-12 16:06:19| NRMSE: 0.5346 ± 0.115
+INFO:DNN:|2024-03-12 16:06:19| Acc: 0.1000 ± 0.200
+INFO:DNN:|2024-03-12 16:06:19| ********************Experiment Success*******************
+INFO:DNN:|2024-03-12 16:06:22| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7fc6a005ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 16:06:22| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 16:06:31| Round=1 BestEpoch=4990 MAE=1446.6476 RMSE=1933.2678 NMAE=0.5298 NRMSE=0.6365 Training_time=5.9 
+INFO:DNN:|2024-03-12 16:06:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:06:33| Round=2 BestEpoch=380 MAE=2026.2565 RMSE=2157.6962 NMAE=0.4768 NRMSE=0.5000 Training_time=0.4 
+INFO:DNN:|2024-03-12 16:06:33| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:06:34| Round=3 BestEpoch=96 MAE=625.4053 RMSE=769.0924 NMAE=0.3051 NRMSE=0.3576 Training_time=0.1 
+INFO:DNN:|2024-03-12 16:06:34| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000]
+INFO:DNN:|2024-03-12 16:06:42| Round=4 BestEpoch=5000 MAE=7872.8701 RMSE=7877.1123 NMAE=2.1278 NRMSE=2.1220 Training_time=5.8 
+INFO:DNN:|2024-03-12 16:06:42| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:06:50| Round=5 BestEpoch=4982 MAE=2046.4010 RMSE=2075.8286 NMAE=0.6937 NRMSE=0.5778 Training_time=6.1 
+INFO:DNN:|2024-03-12 16:06:50| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:06:50| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-12 16:06:50| MAE: 2803.5161 ± 2586.927
+INFO:DNN:|2024-03-12 16:06:50| RMSE: 2962.5995 ± 2508.292
+INFO:DNN:|2024-03-12 16:06:50| NMAE: 0.8266 ± 0.662
+INFO:DNN:|2024-03-12 16:06:50| NRMSE: 0.8388 ± 0.648
+INFO:DNN:|2024-03-12 16:06:50| Acc: 0.0333 ± 0.124
+INFO:DNN:|2024-03-12 16:06:50| ********************Experiment Success*******************
+INFO:DNN:|2024-03-12 16:06:55| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7f893005ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 16:06:55| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 16:07:03| Round=1 BestEpoch=4990 MAE=1446.6476 RMSE=1933.2678 NMAE=0.5298 NRMSE=0.6365 Training_time=6.1 
+INFO:DNN:|2024-03-12 16:07:03| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:07:34| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7f9e6005ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 16:07:34| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 16:07:42| Round=1 BestEpoch=5000 MAE=1778.1373 RMSE=2219.6596 NMAE=0.6512 NRMSE=0.7308 Training_time=6.2 
+INFO:DNN:|2024-03-12 16:07:42| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:07:44| Round=2 BestEpoch=200 MAE=1654.7704 RMSE=1660.1761 NMAE=0.3894 NRMSE=0.3847 Training_time=0.2 
+INFO:DNN:|2024-03-12 16:07:44| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:07:59| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7fbd080d4a30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 16:07:59| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 16:08:11| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0005, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7ff28805ca30>, loss_func='L1Loss', lr=0.0004, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 16:08:11| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 16:08:19| Round=1 BestEpoch=5000 MAE=1778.1373 RMSE=2219.6596 NMAE=0.6512 NRMSE=0.7308 Training_time=6.1 
+INFO:DNN:|2024-03-12 16:08:19| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:08:21| Round=2 BestEpoch=200 MAE=1654.7704 RMSE=1660.1761 NMAE=0.3894 NRMSE=0.3847 Training_time=0.2 
+INFO:DNN:|2024-03-12 16:08:21| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:08:29| Round=3 BestEpoch=4980 MAE=6194.3870 RMSE=6228.3875 NMAE=3.0217 NRMSE=2.8961 Training_time=5.9 
+INFO:DNN:|2024-03-12 16:08:29| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:08:37| Round=4 BestEpoch=5000 MAE=3028.4353 RMSE=3400.1482 NMAE=0.8185 NRMSE=0.9160 Training_time=6.0 
+INFO:DNN:|2024-03-12 16:08:37| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:08:39| Round=5 BestEpoch=244 MAE=2516.9745 RMSE=2519.9658 NMAE=0.8532 NRMSE=0.7015 Training_time=0.3 
+INFO:DNN:|2024-03-12 16:08:39| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:08:39| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-12 16:08:39| MAE: 3034.5409 ± 1657.398
+INFO:DNN:|2024-03-12 16:08:39| RMSE: 3205.6675 ± 1612.798
+INFO:DNN:|2024-03-12 16:08:39| NMAE: 1.1468 ± 0.951
+INFO:DNN:|2024-03-12 16:08:39| NRMSE: 1.1258 ± 0.901
+INFO:DNN:|2024-03-12 16:08:39| Acc: 0.0000 ± 0.000
+INFO:DNN:|2024-03-12 16:08:39| ********************Experiment Success*******************
+INFO:DNN:|2024-03-12 16:09:01| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0001, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7f8470174a30>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 16:09:01| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 16:09:09| Round=1 BestEpoch=4999 MAE=1608.6669 RMSE=2087.4030 NMAE=0.5892 NRMSE=0.6873 Training_time=6.0 
+INFO:DNN:|2024-03-12 16:09:09| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:09:11| Round=2 BestEpoch=97 MAE=1604.3922 RMSE=1623.3416 NMAE=0.3775 NRMSE=0.3762 Training_time=0.1 
+INFO:DNN:|2024-03-12 16:09:11| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:09:19| Round=3 BestEpoch=4997 MAE=651.2311 RMSE=679.5315 NMAE=0.3177 NRMSE=0.3160 Training_time=5.8 
+INFO:DNN:|2024-03-12 16:09:19| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:09:22| Round=4 BestEpoch=1010 MAE=1111.7349 RMSE=1169.8892 NMAE=0.3005 NRMSE=0.3152 Training_time=1.3 
+INFO:DNN:|2024-03-12 16:09:22| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:09:24| Round=5 BestEpoch=45 MAE=2477.1413 RMSE=2480.6783 NMAE=0.8397 NRMSE=0.6905 Training_time=0.1 
+INFO:DNN:|2024-03-12 16:09:24| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000]
+INFO:DNN:|2024-03-12 16:09:24| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-12 16:09:24| MAE: 1490.6333 ± 607.985
+INFO:DNN:|2024-03-12 16:09:24| RMSE: 1608.1687 ± 639.628
+INFO:DNN:|2024-03-12 16:09:24| NMAE: 0.4849 ± 0.205
+INFO:DNN:|2024-03-12 16:09:24| NRMSE: 0.4770 ± 0.174
+INFO:DNN:|2024-03-12 16:09:24| Acc: 0.0000 ± 0.000
+INFO:DNN:|2024-03-12 16:09:24| ********************Experiment Success*******************
+INFO:DNN:|2024-03-12 16:10:07| Namespace(ablation=0, bs=512, classification=0, dataset='data', debug=0, decay=0.0001, density=0.6, device='cpu', dimension=6, epochs=5000, experiment=0, log=<utils.logger.Logger object at 0x7fc0880d4a30>, loss_func='L1Loss', lr=0.001, lr_step=10, model='DNN', optim='AdamW', path='./datasets/', patience=1000, program_test=1, record=0, rounds=5, saved=1, seed=0, valid=1, verbose=1
+INFO:DNN:|2024-03-12 16:10:07| ********************Experiment Start*******************
+INFO:DNN:|2024-03-12 16:10:13| MAE=49.4777 RMSE=60.9635 NMAE=0.0281 NRMSE=0.030
+INFO:DNN:|2024-03-12 16:10:13| Acc = [1%=0.0000, 5%=1.0000, 10%=1.0000
+INFO:CF:|2024-03-12 16:10:23| Namespace(dataset='cpu', debug=0, density=0.01, dimension=None, epochs=300, experiment=0, log=<utils.logger.Logger object at 0x7fad48151f10>, model='CF', path='./datasets/', program_test=0, record=1, rounds=5, seed=0, valid=1, verbose=1
+INFO:CF:|2024-03-12 16:10:23| ********************Experiment Start*******************
+INFO:CF:|2024-03-12 16:10:23| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 16:10:23| Runid : 
+INFO:CF:|2024-03-12 16:10:23| 模型: LinearRegressio
+INFO:CF:|2024-03-12 16:10:23| 测试集上的表现 - MAE=438.9411, RMSE=566.1454, NMAE=0.1916, NRMSE=0.2274
+INFO:CF:|2024-03-12 16:10:23| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:23| 模型: Ridg
+INFO:CF:|2024-03-12 16:10:23| 测试集上的表现 - MAE=438.8784, RMSE=567.3412, NMAE=0.1915, NRMSE=0.2280
+INFO:CF:|2024-03-12 16:10:23| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:23| 模型: Lass
+INFO:CF:|2024-03-12 16:10:23| 测试集上的表现 - MAE=455.9591, RMSE=640.7343, NMAE=0.2000, NRMSE=0.2624
+INFO:CF:|2024-03-12 16:10:23| Acc = [1%=0.5000, 5%=0.5000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:23| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 16:10:23| 测试集上的表现 - MAE=1279.1293, RMSE=1350.2305, NMAE=0.5566, NRMSE=0.5874
+INFO:CF:|2024-03-12 16:10:23| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:23| 模型: SV
+INFO:CF:|2024-03-12 16:10:23| 测试集上的表现 - MAE=700.0236, RMSE=849.7893, NMAE=0.3113, NRMSE=0.3639
+INFO:CF:|2024-03-12 16:10:23| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:23| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 16:10:23| 测试集上的表现 - MAE=971.5650, RMSE=1191.1993, NMAE=0.4760, NRMSE=0.5748
+INFO:CF:|2024-03-12 16:10:23| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:23| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 16:10:24| 测试集上的表现 - MAE=1010.9880, RMSE=1233.2815, NMAE=0.4995, NRMSE=0.6019
+INFO:CF:|2024-03-12 16:10:24| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:24| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 16:10:25| 测试集上的表现 - MAE=1089.4475, RMSE=1187.9107, NMAE=0.4827, NRMSE=0.5234
+INFO:CF:|2024-03-12 16:10:25| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:25| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 16:10:25| Runid : 
+INFO:CF:|2024-03-12 16:10:25| 模型: LinearRegressio
+INFO:CF:|2024-03-12 16:10:25| 测试集上的表现 - MAE=197.6416, RMSE=211.8296, NMAE=0.0457, NRMSE=0.0478
+INFO:CF:|2024-03-12 16:10:25| Acc = [1%=0.0000, 5%=0.5000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:25| 模型: Ridg
+INFO:CF:|2024-03-12 16:10:25| 测试集上的表现 - MAE=196.3568, RMSE=210.2654, NMAE=0.0454, NRMSE=0.0475
+INFO:CF:|2024-03-12 16:10:25| Acc = [1%=0.0000, 5%=0.5000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:25| 模型: Lass
+INFO:CF:|2024-03-12 16:10:25| 测试集上的表现 - MAE=141.0450, RMSE=159.3990, NMAE=0.0326, NRMSE=0.0361
+INFO:CF:|2024-03-12 16:10:25| Acc = [1%=0.0000, 5%=1.0000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:25| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 16:10:25| 测试集上的表现 - MAE=933.3333, RMSE=1127.9283, NMAE=0.2814, NRMSE=0.3399
+INFO:CF:|2024-03-12 16:10:25| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:25| 模型: SV
+INFO:CF:|2024-03-12 16:10:25| 测试集上的表现 - MAE=462.2785, RMSE=477.0211, NMAE=0.1220, NRMSE=0.1242
+INFO:CF:|2024-03-12 16:10:25| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:25| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 16:10:25| 测试集上的表现 - MAE=600.0000, RMSE=608.2763, NMAE=0.1446, NRMSE=0.1465
+INFO:CF:|2024-03-12 16:10:25| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:25| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 16:10:26| 测试集上的表现 - MAE=678.0000, RMSE=735.0782, NMAE=0.1710, NRMSE=0.1853
+INFO:CF:|2024-03-12 16:10:26| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:26| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 16:10:27| 测试集上的表现 - MAE=898.6093, RMSE=905.0944, NMAE=0.2062, NRMSE=0.2076
+INFO:CF:|2024-03-12 16:10:27| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:27| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 16:10:27| Runid : 
+INFO:CF:|2024-03-12 16:10:27| 模型: LinearRegressio
+INFO:CF:|2024-03-12 16:10:27| 测试集上的表现 - MAE=96.5805, RMSE=96.5824, NMAE=0.0471, NRMSE=0.0443
+INFO:CF:|2024-03-12 16:10:27| Acc = [1%=0.0000, 5%=0.5000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:27| 模型: Ridg
+INFO:CF:|2024-03-12 16:10:27| 测试集上的表现 - MAE=83.2357, RMSE=85.9679, NMAE=0.0390, NRMSE=0.0384
+INFO:CF:|2024-03-12 16:10:27| Acc = [1%=0.0000, 5%=1.0000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:27| 模型: Lass
+INFO:CF:|2024-03-12 16:10:27| 测试集上的表现 - MAE=71.5379, RMSE=81.7424, NMAE=0.0342, NRMSE=0.0370
+INFO:CF:|2024-03-12 16:10:27| Acc = [1%=0.0000, 5%=1.0000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:27| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 16:10:27| 测试集上的表现 - MAE=354.0833, RMSE=374.1064, NMAE=0.1473, NRMSE=0.1520
+INFO:CF:|2024-03-12 16:10:27| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:27| 模型: SV
+INFO:CF:|2024-03-12 16:10:27| 测试集上的表现 - MAE=43.8588, RMSE=47.3259, NMAE=0.0209, NRMSE=0.0216
+INFO:CF:|2024-03-12 16:10:27| Acc = [1%=0.5000, 5%=1.0000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:27| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 16:10:27| 测试集上的表现 - MAE=791.1750, RMSE=940.6704, NMAE=0.2785, NRMSE=0.3066
+INFO:CF:|2024-03-12 16:10:27| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:27| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 16:10:28| 测试集上的表现 - MAE=552.3525, RMSE=618.2082, NMAE=0.2123, NRMSE=0.2238
+INFO:CF:|2024-03-12 16:10:28| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:28| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 16:10:29| 测试集上的表现 - MAE=491.1750, RMSE=533.7235, NMAE=0.1933, NRMSE=0.1990
+INFO:CF:|2024-03-12 16:10:29| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:29| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 16:10:29| Runid : 
+INFO:CF:|2024-03-12 16:10:29| 模型: LinearRegressio
+INFO:CF:|2024-03-12 16:10:29| 测试集上的表现 - MAE=171.1493, RMSE=190.5853, NMAE=0.0473, NRMSE=0.0527
+INFO:CF:|2024-03-12 16:10:29| Acc = [1%=0.0000, 5%=0.5000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:29| 模型: Ridg
+INFO:CF:|2024-03-12 16:10:29| 测试集上的表现 - MAE=171.2219, RMSE=190.8155, NMAE=0.0474, NRMSE=0.0527
+INFO:CF:|2024-03-12 16:10:29| Acc = [1%=0.0000, 5%=0.5000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:29| 模型: Lass
+INFO:CF:|2024-03-12 16:10:29| 测试集上的表现 - MAE=163.7174, RMSE=177.4374, NMAE=0.0451, NRMSE=0.0488
+INFO:CF:|2024-03-12 16:10:29| Acc = [1%=0.0000, 5%=0.5000, 10%=1.0000] 
+INFO:CF:|2024-03-12 16:10:29| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 16:10:29| 测试集上的表现 - MAE=823.9500, RMSE=925.4705, NMAE=0.2865, NRMSE=0.3215
+INFO:CF:|2024-03-12 16:10:29| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:29| 模型: SV
+INFO:CF:|2024-03-12 16:10:29| 测试集上的表现 - MAE=282.0836, RMSE=363.9236, NMAE=0.0813, NRMSE=0.1049
+INFO:CF:|2024-03-12 16:10:29| Acc = [1%=0.0000, 5%=0.5000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:29| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 16:10:29| 测试集上的表现 - MAE=700.0000, RMSE=728.0110, NMAE=0.1795, NRMSE=0.1857
+INFO:CF:|2024-03-12 16:10:29| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:29| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 16:10:30| 测试集上的表现 - MAE=517.6975, RMSE=560.6748, NMAE=0.1322, NRMSE=0.1430
+INFO:CF:|2024-03-12 16:10:30| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:30| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 16:10:31| 测试集上的表现 - MAE=729.7890, RMSE=742.4774, NMAE=0.1902, NRMSE=0.1923
+INFO:CF:|2024-03-12 16:10:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:31| -------------------------------------------------------------------------------
+INFO:CF:|2024-03-12 16:10:31| Runid : 
+INFO:CF:|2024-03-12 16:10:31| 模型: LinearRegressio
+INFO:CF:|2024-03-12 16:10:31| 测试集上的表现 - MAE=252.7303, RMSE=272.6340, NMAE=0.0789, NRMSE=0.0707
+INFO:CF:|2024-03-12 16:10:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:31| 模型: Ridg
+INFO:CF:|2024-03-12 16:10:31| 测试集上的表现 - MAE=252.3744, RMSE=271.4452, NMAE=0.0788, NRMSE=0.0704
+INFO:CF:|2024-03-12 16:10:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:31| 模型: Lass
+INFO:CF:|2024-03-12 16:10:31| 测试集上的表现 - MAE=246.2565, RMSE=249.5071, NMAE=0.0770, NRMSE=0.0653
+INFO:CF:|2024-03-12 16:10:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:31| 模型: KNeighborsRegresso
+INFO:CF:|2024-03-12 16:10:31| 测试集上的表现 - MAE=1424.4910, RMSE=1463.4688, NMAE=0.5448, NRMSE=0.5444
+INFO:CF:|2024-03-12 16:10:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:31| 模型: SV
+INFO:CF:|2024-03-12 16:10:31| 测试集上的表现 - MAE=550.5922, RMSE=582.1190, NMAE=0.1754, NRMSE=0.1673
+INFO:CF:|2024-03-12 16:10:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.5000] 
+INFO:CF:|2024-03-12 16:10:31| 模型: DecisionTreeRegresso
+INFO:CF:|2024-03-12 16:10:31| 测试集上的表现 - MAE=750.0000, RMSE=751.6648, NMAE=0.2500, NRMSE=0.2299
+INFO:CF:|2024-03-12 16:10:31| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:31| 模型: RandomForestRegresso
+INFO:CF:|2024-03-12 16:10:32| 测试集上的表现 - MAE=708.9795, RMSE=729.3147, NMAE=0.2551, NRMSE=0.2364
+INFO:CF:|2024-03-12 16:10:32| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:32| 模型: GradientBoostingRegresso
+INFO:CF:|2024-03-12 16:10:33| 测试集上的表现 - MAE=1099.7872, RMSE=1120.8901, NMAE=0.4023, NRMSE=0.3873
+INFO:CF:|2024-03-12 16:10:33| Acc = [1%=0.0000, 5%=0.0000, 10%=0.0000] 
+INFO:CF:|2024-03-12 16:10:33| ********************Experiment Results:*******************
+INFO:CF:|2024-03-12 16:10:33| LinearRegression_MAE: 231.4086 ± 115.303
+INFO:CF:|2024-03-12 16:10:33| LinearRegression_RMSE: 267.5553 ± 159.651
+INFO:CF:|2024-03-12 16:10:33| LinearRegression_NMAE: 0.0821 ± 0.056
+INFO:CF:|2024-03-12 16:10:33| LinearRegression_NRMSE: 0.0886 ± 0.070
+INFO:CF:|2024-03-12 16:10:33| Ridge_MAE: 228.4135 ± 118.528
+INFO:CF:|2024-03-12 16:10:33| Ridge_RMSE: 265.1670 ± 162.482
+INFO:CF:|2024-03-12 16:10:33| Ridge_NMAE: 0.0804 ± 0.057
+INFO:CF:|2024-03-12 16:10:33| Ridge_NRMSE: 0.0874 ± 0.071
+INFO:CF:|2024-03-12 16:10:33| Lasso_MAE: 215.7032 ± 132.451
+INFO:CF:|2024-03-12 16:10:33| Lasso_RMSE: 261.7640 ± 196.858
+INFO:CF:|2024-03-12 16:10:33| Lasso_NMAE: 0.0778 ± 0.063
+INFO:CF:|2024-03-12 16:10:33| Lasso_NRMSE: 0.0899 ± 0.086
+INFO:CF:|2024-03-12 16:10:33| KNeighborsRegressor_MAE: 962.9974 ± 375.208
+INFO:CF:|2024-03-12 16:10:33| KNeighborsRegressor_RMSE: 1048.2409 ± 384.575
+INFO:CF:|2024-03-12 16:10:33| KNeighborsRegressor_NMAE: 0.3633 ± 0.161
+INFO:CF:|2024-03-12 16:10:33| KNeighborsRegressor_NRMSE: 0.3890 ± 0.159
+INFO:CF:|2024-03-12 16:10:33| SVR_MAE: 407.7673 ± 226.720
+INFO:CF:|2024-03-12 16:10:33| SVR_RMSE: 464.0358 ± 263.282
+INFO:CF:|2024-03-12 16:10:33| SVR_NMAE: 0.1422 ± 0.098
+INFO:CF:|2024-03-12 16:10:33| SVR_NRMSE: 0.1564 ± 0.114
+INFO:CF:|2024-03-12 16:10:33| DecisionTreeRegressor_MAE: 762.5480 ± 122.473
+INFO:CF:|2024-03-12 16:10:33| DecisionTreeRegressor_RMSE: 843.9644 ± 203.684
+INFO:CF:|2024-03-12 16:10:33| DecisionTreeRegressor_NMAE: 0.2657 ± 0.115
+INFO:CF:|2024-03-12 16:10:33| DecisionTreeRegressor_NRMSE: 0.2887 ± 0.152
+INFO:CF:|2024-03-12 16:10:33| RandomForestRegressor_MAE: 693.6035 ± 174.417
+INFO:CF:|2024-03-12 16:10:33| RandomForestRegressor_RMSE: 775.3115 ± 238.420
+INFO:CF:|2024-03-12 16:10:33| RandomForestRegressor_NMAE: 0.2540 ± 0.129
+INFO:CF:|2024-03-12 16:10:33| RandomForestRegressor_NRMSE: 0.2781 ± 0.165
+INFO:CF:|2024-03-12 16:10:33| GradientBoostingRegressor_MAE: 861.7616 ± 230.046
+INFO:CF:|2024-03-12 16:10:33| GradientBoostingRegressor_RMSE: 898.0192 ± 241.107
+INFO:CF:|2024-03-12 16:10:33| GradientBoostingRegressor_NMAE: 0.2950 ± 0.123
+INFO:CF:|2024-03-12 16:10:33| GradientBoostingRegressor_NRMSE: 0.3019 ± 0.132
+INFO:CF:|2024-03-12 16:10:33| ********************Experiment Success********************

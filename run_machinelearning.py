@@ -2,14 +2,12 @@
 # Author : yuxiang Zeng
 import collections
 import time
-import pickle
 import numpy as np
-import pandas as pd
 import argparse
-from tqdm import *
 import torch
 
 from data import experiment, DataModule
+from get_params import get_ml_args
 from utils.logger import Logger
 from utils.metrics import ErrorMetrics
 from utils.utils import set_settings, set_seed
@@ -29,7 +27,7 @@ class Model(torch.torch.nn.Module):
         self.log('-' * 80)
         self.log(f'Runid : {self.runid + 1}')
 
-    def machine_learning_model_train_evaluation(self, train_x, train_y, valid_x, valid_y, test_x, test_y, max_value):
+    def machine_learning_model_train_evaluation(self, datamodule):
         from sklearn.metrics import mean_squared_error
         from sklearn.model_selection import ParameterGrid
         from sklearn.linear_model import LinearRegression, Ridge, Lasso
@@ -38,6 +36,10 @@ class Model(torch.torch.nn.Module):
         from sklearn.ensemble import GradientBoostingRegressor
         from sklearn.tree import DecisionTreeRegressor
         from sklearn.ensemble import RandomForestRegressor
+        train_x, train_y = datamodule.train_tensor[:, :-1], datamodule.train_tensor[:, -1]
+        valid_x, valid_y = datamodule.valid_tensor[:, :-1], datamodule.valid_tensor[:, -1]
+        test_x, test_y = datamodule.test_tensor[:, :-1], datamodule.test_tensor[:, -1]
+        max_value = datamodule.max_value
         # print(train_x.shape, train_y.shape, valid_x.shape, valid_y.shape, test_x.shape, test_y.shape)
         models = {
             'LinearRegression': LinearRegression(),
@@ -94,6 +96,7 @@ class Model(torch.torch.nn.Module):
         return results_dict
 
 
+
 def RunOnce(args, runId, Runtime, log):
     # Set seed
     set_seed(args.seed + runId)
@@ -102,19 +105,12 @@ def RunOnce(args, runId, Runtime, log):
     datamodule = DataModule(exper, args)
     model = Model(args)
     model.set_runid(runId)
-    # Prepare the data for machine learning
-    train_x, train_y = datamodule.train_tensor[:, :-1], datamodule.train_tensor[:, -1]
-    valid_x, valid_y = datamodule.valid_tensor[:, :-1], datamodule.valid_tensor[:, -1]
-    test_x, test_y = datamodule.test_tensor[:, :-1], datamodule.test_tensor[:, -1]
-    max_value = datamodule.max_value
-    results = model.machine_learning_model_train_evaluation(train_x, train_y, valid_x, valid_y, test_x, test_y, max_value)
+    results = model.machine_learning_model_train_evaluation(datamodule)
     return results
-
 
 def RunExperiments(log, args):
     log('*' * 20 + 'Experiment Start' + '*' * 20)
     metrics = collections.defaultdict(list)
-
     for runId in range(args.rounds):
         runHash = int(time.time())
         results = RunOnce(args, runId, runHash, log)
@@ -136,33 +132,8 @@ def RunExperiments(log, args):
     return metrics
 
 
-def get_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--seed', type=int, default=0)
-    parser.add_argument('--rounds', type=int, default=5)
-
-    parser.add_argument('--dataset', type=str, default='cpu')  #
-    parser.add_argument('--model', type=str, default='CF')  #
-
-    # Experiment
-    parser.add_argument('--density', type=float, default=0.01)
-    parser.add_argument('--debug', type=int, default=0)
-    parser.add_argument('--record', type=int, default=1)
-    parser.add_argument('--program_test', type=int, default=0)
-    parser.add_argument('--valid', type=int, default=1)
-    parser.add_argument('--experiment', type=int, default=0)
-    parser.add_argument('--verbose', type=int, default=1)
-    parser.add_argument('--path', nargs='?', default='./datasets/')
-
-    # Training tool
-    parser.add_argument('--epochs', type=int, default=300)
-    parser.add_argument('--dimension', type=int, default=None)
-    args = parser.parse_args()
-    return args
-
-
 if __name__ == '__main__':
-    args = get_args()
+    args = get_ml_args()
     set_settings(args)
     log = Logger(args)
     args.log = log
