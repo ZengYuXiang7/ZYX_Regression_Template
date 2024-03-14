@@ -8,14 +8,14 @@ def get_args():
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--rounds', type=int, default=5)
 
-    parser.add_argument('--dataset', type=str, default='data')  #
+    parser.add_argument('--dataset', type=str, default='rt')  #
     parser.add_argument('--model', type=str, default='DNN')  #
 
     # Experiment
-    parser.add_argument('--density', type=float, default=0.60)
+    parser.add_argument('--density', type=float, default=0.0001)
     parser.add_argument('--debug', type=int, default=0)
     parser.add_argument('--record', type=int, default=0)
-    parser.add_argument('--program_test', type=int, default=1)
+    parser.add_argument('--program_test', type=int, default=0)
     parser.add_argument('--valid', type=int, default=1)
     parser.add_argument('--experiment', type=int, default=0)
     parser.add_argument('--verbose', type=int, default=1)
@@ -23,19 +23,22 @@ def get_args():
 
     # Training tool
     parser.add_argument('--device', type=str, default='cpu')  # gpu cpu mps
-    parser.add_argument('--bs', type=int, default=512)  #
+    parser.add_argument('--bs', type=int, default=256)  #
     parser.add_argument('--lr', type=float, default=1e-3)
-    parser.add_argument('--epochs', type=int, default=5000)
+    parser.add_argument('--epochs', type=int, default=300)
     parser.add_argument('--decay', type=float, default=1e-4)
     parser.add_argument('--lr_step', type=int, default=10)
-    parser.add_argument('--patience', type=int, default=1000)
+    parser.add_argument('--patience', type=int, default=10)
     parser.add_argument('--saved', type=int, default=1)
 
     parser.add_argument('--loss_func', type=str, default='L1Loss')
     parser.add_argument('--optim', type=str, default='AdamW')
 
     # Hyper parameters
-    parser.add_argument('--dimension', type=int, default=6)
+    parser.add_argument('--user_num', type=int, default=339)
+    parser.add_argument('--serv_num', type=int, default=5825)
+    parser.add_argument('--dimension', type=int, default=32)
+    parser.add_argument('--check', type=int, default=0)
 
     # Other Experiment
     parser.add_argument('--ablation', type=int, default=0)

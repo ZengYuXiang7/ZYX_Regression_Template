@@ -37,10 +37,12 @@ def ErrorMetrics(realVec, estiVec):
         'NRMSE': NRMSE,
         'Acc' : Acc,
     }
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+
 
 
 def class_Metrics(y_pred, y_test):
+    from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+
     Acc = accuracy_score(y_test, y_pred)
     F1 = f1_score(y_test, y_pred, average='micro')  # 如果是多分类问题，可以修改 average 参数
     P = precision_score(y_test, y_pred, average='micro')  # 如果是多分类问题，可以修改 average 参数

@@ -3,13 +3,14 @@
 import numpy as np
 
 class EarlyStopping:
-    def __init__(self, patience, delta=0):
-        self.patience = patience
+    def __init__(self, args):
+        self.args = args
+        self.patience = args.patience
         self.counter = 0
         self.best_score = None
         self.early_stop = False
         self.val_loss_min = np.Inf
-        self.delta = delta
+        self.delta = 0
         self.best_model = None
         self.best_epoch = None
 
@@ -39,3 +40,8 @@ class EarlyStopping:
     def early_stop(self):
         return self.counter >= self.patience
 
+    def track_one_epoch(self, epoch, model, error):
+        if self.args.classification:
+            self.track(epoch, model.state_dict(), -1 * error['Acc'])
+        else:
+            self.track(epoch, model.state_dict(), error['MAE'])

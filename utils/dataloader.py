@@ -5,8 +5,9 @@ import multiprocessing
 
 from torch.utils.data import DataLoader
 
+
 def get_dataloaders(train_set, valid_set, test_set, args):
-    # max_workers = multiprocessing.cpu_count()
+    max_workers = multiprocessing.cpu_count()
     # max_workers = 1
 
     train_loader = DataLoader(
@@ -15,29 +16,29 @@ def get_dataloaders(train_set, valid_set, test_set, args):
         drop_last=False,
         shuffle=True,
         pin_memory=True,
-        collate_fn=custom_collate_fn
-        # num_workers=max_workers if platform.system() == 'Linux' else 0,
-        # prefetch_factor=4 if platform.system() == 'Linux' else 2
+        collate_fn=custom_collate_fn,
+        # num_workers=max_workers,
+        # prefetch_factor=4
     )
     valid_loader = DataLoader(
         valid_set,
-        batch_size=args.bs,
+        batch_size=4096,
         drop_last=False,
         shuffle=False,
         pin_memory=True,
-        collate_fn=custom_collate_fn
-        # num_workers=max_workers if platform.system() == 'Linux' else 0,
-        # prefetch_factor=4 if platform.system() == 'Linux' else 2
+        collate_fn=custom_collate_fn,
+        # num_workers=max_workers,
+        # prefetch_factor=4
     )
     test_loader = DataLoader(
         test_set,
-        batch_size=args.bs,  # 8192
+        batch_size=4096,  # 8192
         drop_last=False,
         shuffle=False,
         pin_memory=True,
-        collate_fn=custom_collate_fn
-        # num_workers=max_workers if platform.system() == 'Linux' else 0,
-        # prefetch_factor=4 if platform.system() == 'Linux' else 2
+        collate_fn=custom_collate_fn,
+        # num_workers=max_workers,
+        # prefetch_factor=4
     )
 
     return train_loader, valid_loader, test_loader
